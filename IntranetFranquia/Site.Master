@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Relatorios.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="">
+    <form runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div class="page">
+            <div class="header">
+                <table border="0" cellpadding="" cellspacing="0" width="100%">
+                    <tr>
+                            <td style="width: 500px;">&nbsp;&nbsp;<asp:Image ID="imgLogo" runat="server" AlternateText="Criatiff" ImageUrl="~/Image/criatiff_logo.png" Height="70px" />&nbsp;
+                        </td>
+                        <td style="text-align: right;">
+                            <asp:LinkButton ID="lknVoltar" runat="server" CssClass="linkMaster" Text="Menu Principal |" OnClick="lknVoltar_Click" ForeColor="Black"></asp:LinkButton>
+                            <asp:LinkButton ID="lnkLogin" runat="server" CssClass="linkMaster" Text="Login" OnClick="lnkLogin_Click" ForeColor="Black"></asp:LinkButton>&nbsp;&nbsp;
+                        </td>
+                    </tr>
+                    <tr style="background-color: #FDBC2A;">
+                        <td>&nbsp;&nbsp;<asp:LinkButton ID="lknAgoraRede" runat="server" CssClass="linkMaster" Text="Agora Rede |" ForeColor="Black" PostBackUrl="~/DesempenhoAgoraRedev2.aspx"></asp:LinkButton>
+                            <asp:LinkButton ID="lknAgoraSuper" runat="server" CssClass="linkMaster" Text="Agora Super |" ForeColor="Black" PostBackUrl="~/DesempenhoAgoraSuperv2.aspx"></asp:LinkButton>
+                            <%--<asp:LinkButton ID="lknGincana" runat="server" CssClass="linkMaster" Text="Gincana de Natal" ForeColor="Black" PostBackUrl="~/mod_marketing/mkt_gin_natal2021.aspx"></asp:LinkButton><asp:Image ID="imgGin" runat="server" ImageUrl="~/Image/natal.png" Width="20px" />--%>
+                        </td>
+                        <td style="text-align: right;">
+                            <asp:Label ID="labAmbiente" runat="server" Text="" Font-Size="Medium" ForeColor="Black"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="main">
+                <br />
+                <br />
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    </form>
+</body>
+</html>

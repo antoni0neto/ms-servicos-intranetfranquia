@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.875, 24.5" name="LINX">
+  <DataContextMoniker Name="/LINXDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1a5bef7f-8aad-4dfa-a4a2-94dfc36b24ab" absoluteBounds="1.125, 0.625, 2.625, 6.1938297526041657">
+      <DataClassMoniker Name="/LINXDataContext/PRODUTO_OPERACOES_ROTA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6a8bc528-929a-4b48-b07d-e9470b3af234" absoluteBounds="1.1400000000000001, 1.085, 2.5949999999999998, 5.6338297526041661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7acb1ad-e7bd-4f66-a1df-47b971dab328" absoluteBounds="0.5, 7.5, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LINXDataContext/CTB_VISAO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b59c3e7-6a0d-49e4-90b1-a90ba130dc82" absoluteBounds="0.51499999999999968, 7.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="190bcc03-9249-475e-bdcc-5d0e3dff7cfa" absoluteBounds="3.375, 7.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LINXDataContext/LCF_LX_UF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c6e7e3a-ce2f-4a52-8659-36d14a489c8a" absoluteBounds="3.3899999999999997, 8.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33cc8d3a-40e5-4643-8e58-9e8090d0ea27" absoluteBounds="3.875, 0.625, 2, 5.2323225911458326">
+      <DataClassMoniker Name="/LINXDataContext/TRANSPORTADORA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="05a3ffde-986b-4a90-b329-cfc23d12707b" absoluteBounds="3.89, 1.085, 1.9700000000000002, 4.672322591145833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4685e3a0-cdb7-44dc-b63e-a27ffd3871d4" absoluteBounds="6.875, 0.625, 2, 5.4246240234375">
+      <DataClassMoniker Name="/LINXDataContext/TABELAS_PRECO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d556c2e-9cf6-4a23-b27d-eb087249a64d" absoluteBounds="6.89, 1.085, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.58423076923077 : 6.0496240234375); (7.58423076923077 : 6.2996240234375); (8.17961538461539 : 6.2996240234375); (8.17961538461539 : 6.0496240234375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LINXDataContext/TABELAS_PRECO/TABELAS_PRECO_TABELAS_PRECO" />
+      <nodes>
+        <classShapeMoniker Id="4685e3a0-cdb7-44dc-b63e-a27ffd3871d4" />
+        <classShapeMoniker Id="4685e3a0-cdb7-44dc-b63e-a27ffd3871d4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9c5e89d2-95a6-47cf-ad8a-45371d29d215" absoluteBounds="9.625, 2.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LINXDataContext/REGIOES_VENDA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72f90d94-b29b-4497-8f40-c9998b477b50" absoluteBounds="9.64, 3.085, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.3342307692308 : 4.97280110677083); (10.3342307692308 : 5.22280110677083); (10.9296153846154 : 5.22280110677083); (10.9296153846154 : 4.97280110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LINXDataContext/REGIOES_VENDA/REGIOES_VENDA_REGIOES_VENDA" />
+      <nodes>
+        <classShapeMoniker Id="9c5e89d2-95a6-47cf-ad8a-45371d29d215" />
+        <classShapeMoniker Id="9c5e89d2-95a6-47cf-ad8a-45371d29d215" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="6e745416-1d8f-4e94-9203-2d8b0c4e7131" absoluteBounds="6.875, 6.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LINXDataContext/VENDAS_TIPO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf43bb0e-bc9d-48a6-bec4-8723c7340e49" absoluteBounds="6.89, 6.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5cfb11b4-27c2-46d4-ae20-21475e75fdb4" absoluteBounds="9.25, 6.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LINXDataContext/CTB_LX_DOCUMENTO_TIPO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ed4d7211-f097-4e78-8c6f-58e408cd4a02" absoluteBounds="9.265, 6.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2854059-5b0d-476e-b454-432c453bd779" absoluteBounds="0.5, 11, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/LINXDataContext/LOJA_FORMAS_PGTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="960be00e-91f2-4f33-a794-500d089b7d63" absoluteBounds="0.515, 11.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59b3d95c-becb-4278-b4d5-1416535a0fe6" absoluteBounds="4.125, 11.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LINXDataContext/LJ_FIDELIDADE_PONTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2218419b-8946-45eb-ad99-afd291274aed" absoluteBounds="4.14, 11.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6b838e8-b19d-4050-bf68-058d7b2e917c" absoluteBounds="6.625, 11.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/LINXDataContext/LJ_FIDELIDADE_PONTO_CAMPANHA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee8d6255-3e5c-468b-8afb-0c53046eaf9d" absoluteBounds="6.64, 11.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9df53601-b75d-41cc-b460-eb4366513be3" absoluteBounds="3.625, 13.875, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/LINXDataContext/LJ_FIDELIDADE_PROGRAMA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84427d30-413c-4e39-a9ef-a37c9a449552" absoluteBounds="3.64, 14.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.875 : 13.875); (4.875 : 13.4728011067708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LINXDataContext/LJ_FIDELIDADE_PROGRAMA/LJ_FIDELIDADE_PROGRAMA_LJ_FIDELIDADE_PONTO" />
+      <nodes>
+        <classShapeMoniker Id="9df53601-b75d-41cc-b460-eb4366513be3" />
+        <classShapeMoniker Id="59b3d95c-becb-4278-b4d5-1416535a0fe6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.625 : 16.8261539713542); (7.34375 : 16.8261539713542); (7.34375 : 13.1458968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LINXDataContext/LJ_FIDELIDADE_PROGRAMA/LJ_FIDELIDADE_PROGRAMA_LJ_FIDELIDADE_PONTO_CAMPANHA" />
+      <nodes>
+        <classShapeMoniker Id="9df53601-b75d-41cc-b460-eb4366513be3" />
+        <classShapeMoniker Id="e6b838e8-b19d-4050-bf68-058d7b2e917c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8895e1fc-2960-40fe-84f3-350e106c7a12" absoluteBounds="8.125, 14.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LINXDataContext/LJ_FIDELIDADE_CAMPANHA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fccdd710-1dc5-4c71-a389-7c176352e3c2" absoluteBounds="8.14, 14.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.375 : 14.25); (8.375 : 13.1458968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LINXDataContext/LJ_FIDELIDADE_CAMPANHA/LJ_FIDELIDADE_CAMPANHA_LJ_FIDELIDADE_PONTO_CAMPANHA" />
+      <nodes>
+        <classShapeMoniker Id="8895e1fc-2960-40fe-84f3-350e106c7a12" />
+        <classShapeMoniker Id="e6b838e8-b19d-4050-bf68-058d7b2e917c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9e3c2e80-d7c0-45a1-8159-72d55de27e9b" absoluteBounds="9.125, 0.875, 2, 10.424461263020833">
+      <DataClassMoniker Name="/LINXDataContext/COND_ATAC_PGTO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a81040a-6b04-4e31-aea6-24f59b3ff7a6" absoluteBounds="9.14, 1.335, 1.9700000000000002, 9.8644612630208321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="98ead97b-9a5a-4e42-87e9-995940624554" absoluteBounds="0.75, 18.25, 2, 6.0015283203125">
+      <DataClassMoniker Name="/LINXDataContext/ESTOQUE_PROD_SAI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42575be9-bf7b-488d-901c-9e7db59614a9" absoluteBounds="0.765, 18.71, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

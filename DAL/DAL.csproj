@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA97EB13-18EE-41A9-8B38-A810C8B9A127}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.5\lib\net451\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.5.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="JWT, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JWT.4.0.0\lib\net46\JWT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.12\lib\net452\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Twilio, Version=5.16.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Twilio.5.16.3\lib\net35\Twilio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constante.cs" />
+    <Compile Include="BranchReport.cs" />
+    <Compile Include="ContaCorrente.cs" />
+    <Compile Include="AtingidoAgora.cs" />
+    <Compile Include="Dados\ActiveDirectoryController.cs" />
+    <Compile Include="Dados\CRMController.cs" />
+    <Compile Include="Dados\EcomMySqlController.cs" />
+    <Compile Include="Dados\EcomController.cs" />
+    <Compile Include="Dados\ContagemController.cs" />
+    <Compile Include="Dados\ControleProdutoController.cs" />
+    <Compile Include="Dados\RepresentanteController.cs" />
+    <Compile Include="Dados\SeguroController.cs" />
+    <Compile Include="Dados\LojaController.cs" />
+    <Compile Include="Dados\FaccaoController.cs" />
+    <Compile Include="Dados\RHController.cs" />
+    <Compile Include="Dados\ContabilidadeController.cs" />
+    <Compile Include="Dados\AtacadoController.cs" />
+    <Compile Include="Dados\FreteController.cs" />
+    <Compile Include="Dados\NotificacaoController.cs" />
+    <Compile Include="Dados\JuridicoController.cs" />
+    <Compile Include="Dados\DREController.cs" />
+    <Compile Include="Dados\DesenvolvimentoController.cs" />
+    <Compile Include="Dados\ProducaoController.cs" />
+    <Compile Include="DC.cs">
+      <DependentUpon>DC.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DifereVendaCota.cs" />
+    <Compile Include="INTRA.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>INTRA.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="LancamentoContabilEntity.cs" />
+    <Compile Include="LINX.cs">
+      <DependentUpon>LINX.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="LINX.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LINX.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="mod_producao\ProdutoCusto.cs" />
+    <Compile Include="NOME_BANCOS.cs" />
+    <Compile Include="Tamanho.cs" />
+    <Compile Include="ProdutoDestino.cs" />
+    <Compile Include="DivergenciaFechamento.cs" />
+    <Compile Include="Dados\Produto.cs" />
+    <Compile Include="ResumoSupervisor.cs" />
+    <Compile Include="UsuarioAD.cs" />
+    <Compile Include="VendasCotasLoja.cs" />
+    <Compile Include="Vendas.cs" />
+    <Compile Include="Dados\Criptografia.cs" />
+    <Compile Include="ProdutoVendido.cs" />
+    <Compile Include="ItensProduto.cs" />
+    <Compile Include="ResumoNotaTransfer.cs" />
+    <Compile Include="VendasCotas.cs" />
+    <Compile Include="Importacao.cs" />
+    <Compile Include="Dados\EnvioEmail.cs" />
+    <Compile Include="Grupo.cs" />
+    <Compile Include="Farol.cs" />
+    <Compile Include="PartesProdutoMaster.cs" />
+    <Compile Include="PartesProduto.cs" />
+    <Compile Include="VendasBermuda.cs" />
+    <Compile Include="VendasHora.cs" />
+    <Compile Include="ReportCriticaLoja.cs" />
+    <Compile Include="Dados\CriticaController.cs" />
+    <Compile Include="MovimentoProduto.cs" />
+    <Compile Include="EstoqueLoja.cs" />
+    <Compile Include="ReportVendas.cs" />
+    <Compile Include="LineReportColecao.cs" />
+    <Compile Include="GrupoProduto.cs" />
+    <Compile Include="Dados\DesempenhoController.cs" />
+    <Compile Include="Dados\FuncionarioLojaController.cs" />
+    <Compile Include="Dados\UsuarioController.cs" />
+    <Compile Include="Dados\HistoricoProdutoController.cs" />
+    <Compile Include="Dados\ImagemController.cs" />
+    <Compile Include="Dados\PerfilController.cs" />
+    <Compile Include="LineReport.cs" />
+    <Compile Include="Dados\BaseController.cs" />
+    <Compile Include="Dados\EstoqueController.cs" />
+    <Compile Include="Dados\EntradaProdutoController.cs" />
+    <Compile Include="Dados\SaidaProdutoController.cs" />
+    <Compile Include="DC.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DC.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DC.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DC.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="INTRA.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>INTRA.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LINX.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>LINX.designer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DC.dbml.layout">
+      <DependentUpon>DC.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="INTRA.dbml.layout">
+      <DependentUpon>INTRA.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LINX.dbml.layout">
+      <DependentUpon>LINX.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuery</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+    <script src="https://dl.dropboxusercontent.com/u/40036711/Scripts/jquery.ddslick.min.js"></script>
+    <script>
+        $(function () {
+            var ddData = [
+                    {
+                        text: "Facebook",
+                        value: 1,
+                        description: "Description with Facebook",
+                        imageSrc: "http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+                    },
+                    {
+                        text: "Twitter",
+                        value: 2,
+                        description: "Description with Twitter",
+                        imageSrc: "http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
+                    }
+            ];
+
+            $("#myDropdown").ddslick({
+                data: ddData,
+                width: 300,
+                selectText: "Select your preferred social network",
+                imagePosition: "right",
+                onSelected: function (selectedData) {
+                    //callback function: do something with selectedData;
+                }
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div id="myDropdown"></div>
+
+
+    <div>
+        <table>
+            <tr>
+                <td rowspan='5' style='width: 20px; background-color: #ccc; border: 1px solid #000; ' align='center' valign='middle' class='background-force'>
+                    <font size='0.5'>
+
+                        <b>
+                            I<br />
+                            S<br />
+                            E<br />
+                            N<br />
+                            Ç<br />
+                        </b>
+
+                    </font>
+
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>

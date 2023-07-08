@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ns0="http://postagem/xsd" xmlns:axis2="http://postagem/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns1="http://Entidade/xsd" targetNamespace="http://postagem/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>PrePostagemWS</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema xmlns:ns="http://postagem/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://postagem/xsd">
+      <xs:element name="execute">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="parameter" nillable="true" type="ns1:WSCriDstxDad3Execute" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="executeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ns1:WSCriDstxDad3ExecuteResponse" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostagemXml">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="xml" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostagemXmlResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostagemXml2">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="xml" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="tem_email" type="xs:boolean" />
+            <xs:element minOccurs="0" name="emails_to" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostagemXml2Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostarObjeto">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="numeroCartao" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="endereco" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="numero" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="complemento" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="bairro" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="uf" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cidade" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cep" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="notaFiscal" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pedido" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codigoDoServico" type="xs:int" />
+            <xs:element minOccurs="0" name="pesoReal" type="xs:int" />
+            <xs:element minOccurs="0" name="valorDeclarado" type="xs:float" />
+            <xs:element minOccurs="0" name="altura" type="xs:float" />
+            <xs:element minOccurs="0" name="largura" type="xs:float" />
+            <xs:element minOccurs="0" name="comprimento" type="xs:float" />
+            <xs:element minOccurs="0" name="avisoRecebimento" type="xs:boolean" />
+            <xs:element minOccurs="0" name="numeroDeRegistro" type="xs:boolean" />
+            <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="conteudo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="celular" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lote" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostarObjetoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostarObjetoComRegistro">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="numeroCartao" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="endereco" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="numero" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="complemento" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="bairro" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="uf" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cidade" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cep" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="notaFiscal" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="pedido" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codigoDoServico" type="xs:int" />
+            <xs:element minOccurs="0" name="pesoReal" type="xs:int" />
+            <xs:element minOccurs="0" name="valorDeclarado" type="xs:float" />
+            <xs:element minOccurs="0" name="altura" type="xs:float" />
+            <xs:element minOccurs="0" name="largura" type="xs:float" />
+            <xs:element minOccurs="0" name="comprimento" type="xs:float" />
+            <xs:element minOccurs="0" name="avisoRecebimento" type="xs:boolean" />
+            <xs:element minOccurs="0" name="numeroDeRegistro" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="conteudo" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="celular" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="lote" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PrePostarObjetoComRegistroResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="atualizaDestinatario">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="xml" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="opType" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="atualizaDestinatarioResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAbrangenciaServico">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="servico" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="cep" type="xs:int" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAbrangenciaServicoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCentroCustoXml">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCentroCustoXmlResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEndereco">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="cep" type="xs:int" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEnderecoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSituacaoNrObjeto">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="xml" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="codAgencia" type="xs:int" />
+            <xs:element minOccurs="0" name="login" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="senha" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getSituacaoNrObjetoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <xs:schema xmlns:ax21="http://Entidade/xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://Entidade/xsd">
+      <xs:complexType name="WSCriDstxDad3Execute">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoAgencia" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstbai" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstcid" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstcpl" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstend" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstendnum" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstest" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstnom" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstnom2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxadi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxcar" type="xs:long" />
+          <xs:element minOccurs="0" name="dstxcel" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxcep" type="xs:int" />
+          <xs:element minOccurs="0" name="dstxcob" type="xs:double" />
+          <xs:element minOccurs="0" name="dstxemail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxnfi" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxobs" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxpai" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxpes" type="xs:double" />
+          <xs:element minOccurs="0" name="dstxrmtcod" type="xs:short" />
+          <xs:element minOccurs="0" name="dstxvd" type="xs:double" />
+          <xs:element minOccurs="0" name="dstxvo1" type="xs:double" />
+          <xs:element minOccurs="0" name="dstxvo2" type="xs:double" />
+          <xs:element minOccurs="0" name="dstxvo3" type="xs:double" />
+          <xs:element minOccurs="0" name="servico1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="servico2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="webcliema" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="webclisen" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="WSCriDstxDad3ExecuteResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codectcod" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxetq" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="dstxlot" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="erro" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="PrePostarObjetoRequest">
+    <wsdl:part name="parameters" element="ns0:PrePostarObjeto" />
+  </wsdl:message>
+  <wsdl:message name="PrePostarObjetoResponse">
+    <wsdl:part name="parameters" element="ns0:PrePostarObjetoResponse" />
+  </wsdl:message>
+  <wsdl:message name="executeRequest">
+    <wsdl:part name="parameters" element="ns0:execute" />
+  </wsdl:message>
+  <wsdl:message name="executeResponse">
+    <wsdl:part name="parameters" element="ns0:executeResponse" />
+  </wsdl:message>
+  <wsdl:message name="atualizaDestinatarioRequest">
+    <wsdl:part name="parameters" element="ns0:atualizaDestinatario" />
+  </wsdl:message>
+  <wsdl:message name="atualizaDestinatarioResponse">
+    <wsdl:part name="parameters" element="ns0:atualizaDestinatarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="getSituacaoNrObjetoRequest">
+    <wsdl:part name="parameters" element="ns0:getSituacaoNrObjeto" />
+  </wsdl:message>
+  <wsdl:message name="getSituacaoNrObjetoResponse">
+    <wsdl:part name="parameters" element="ns0:getSituacaoNrObjetoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getEnderecoRequest">
+    <wsdl:part name="parameters" element="ns0:getEndereco" />
+  </wsdl:message>
+  <wsdl:message name="getEnderecoResponse">
+    <wsdl:part name="parameters" element="ns0:getEnderecoResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrePostagemXml2Request">
+    <wsdl:part name="parameters" element="ns0:PrePostagemXml2" />
+  </wsdl:message>
+  <wsdl:message name="PrePostagemXml2Response">
+    <wsdl:part name="parameters" element="ns0:PrePostagemXml2Response" />
+  </wsdl:message>
+  <wsdl:message name="getCentroCustoXmlRequest">
+    <wsdl:part name="parameters" element="ns0:getCentroCustoXml" />
+  </wsdl:message>
+  <wsdl:message name="getCentroCustoXmlResponse">
+    <wsdl:part name="parameters" element="ns0:getCentroCustoXmlResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAbrangenciaServicoRequest">
+    <wsdl:part name="parameters" element="ns0:getAbrangenciaServico" />
+  </wsdl:message>
+  <wsdl:message name="getAbrangenciaServicoResponse">
+    <wsdl:part name="parameters" element="ns0:getAbrangenciaServicoResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrePostarObjetoComRegistroRequest">
+    <wsdl:part name="parameters" element="ns0:PrePostarObjetoComRegistro" />
+  </wsdl:message>
+  <wsdl:message name="PrePostarObjetoComRegistroResponse">
+    <wsdl:part name="parameters" element="ns0:PrePostarObjetoComRegistroResponse" />
+  </wsdl:message>
+  <wsdl:message name="PrePostagemXmlRequest">
+    <wsdl:part name="parameters" element="ns0:PrePostagemXml" />
+  </wsdl:message>
+  <wsdl:message name="PrePostagemXmlResponse">
+    <wsdl:part name="parameters" element="ns0:PrePostagemXmlResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PrePostagemWSPortType">
+    <wsdl:operation name="PrePostarObjeto">
+      <wsdl:input wsaw:Action="urn:PrePostarObjeto" message="axis2:PrePostarObjetoRequest" />
+      <wsdl:output wsaw:Action="urn:PrePostarObjetoResponse" message="axis2:PrePostarObjetoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="execute">
+      <wsdl:input wsaw:Action="urn:execute" message="axis2:executeRequest" />
+      <wsdl:output wsaw:Action="urn:executeResponse" message="axis2:executeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="atualizaDestinatario">
+      <wsdl:input wsaw:Action="urn:atualizaDestinatario" message="axis2:atualizaDestinatarioRequest" />
+      <wsdl:output wsaw:Action="urn:atualizaDestinatarioResponse" message="axis2:atualizaDestinatarioResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getSituacaoNrObjeto">
+      <wsdl:input wsaw:Action="urn:getSituacaoNrObjeto" message="axis2:getSituacaoNrObjetoRequest" />
+      <wsdl:output wsaw:Action="urn:getSituacaoNrObjetoResponse" message="axis2:getSituacaoNrObjetoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getEndereco">
+      <wsdl:input wsaw:Action="urn:getEndereco" message="axis2:getEnderecoRequest" />
+      <wsdl:output wsaw:Action="urn:getEnderecoResponse" message="axis2:getEnderecoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml2">
+      <wsdl:input wsaw:Action="urn:PrePostagemXml2" message="axis2:PrePostagemXml2Request" />
+      <wsdl:output wsaw:Action="urn:PrePostagemXml2Response" message="axis2:PrePostagemXml2Response" />
+    </wsdl:operation>
+    <wsdl:operation name="getCentroCustoXml">
+      <wsdl:input wsaw:Action="urn:getCentroCustoXml" message="axis2:getCentroCustoXmlRequest" />
+      <wsdl:output wsaw:Action="urn:getCentroCustoXmlResponse" message="axis2:getCentroCustoXmlResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAbrangenciaServico">
+      <wsdl:input wsaw:Action="urn:getAbrangenciaServico" message="axis2:getAbrangenciaServicoRequest" />
+      <wsdl:output wsaw:Action="urn:getAbrangenciaServicoResponse" message="axis2:getAbrangenciaServicoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PrePostarObjetoComRegistro">
+      <wsdl:input wsaw:Action="urn:PrePostarObjetoComRegistro" message="axis2:PrePostarObjetoComRegistroRequest" />
+      <wsdl:output wsaw:Action="urn:PrePostarObjetoComRegistroResponse" message="axis2:PrePostarObjetoComRegistroResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml">
+      <wsdl:input wsaw:Action="urn:PrePostagemXml" message="axis2:PrePostagemXmlRequest" />
+      <wsdl:output wsaw:Action="urn:PrePostagemXmlResponse" message="axis2:PrePostagemXmlResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PrePostagemWSSOAP11Binding" type="axis2:PrePostagemWSPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PrePostarObjeto">
+      <soap:operation soapAction="urn:PrePostarObjeto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="execute">
+      <soap:operation soapAction="urn:execute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="atualizaDestinatario">
+      <soap:operation soapAction="urn:atualizaDestinatario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSituacaoNrObjeto">
+      <soap:operation soapAction="urn:getSituacaoNrObjeto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEndereco">
+      <soap:operation soapAction="urn:getEndereco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml2">
+      <soap:operation soapAction="urn:PrePostagemXml2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCentroCustoXml">
+      <soap:operation soapAction="urn:getCentroCustoXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAbrangenciaServico">
+      <soap:operation soapAction="urn:getAbrangenciaServico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostarObjetoComRegistro">
+      <soap:operation soapAction="urn:PrePostarObjetoComRegistro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml">
+      <soap:operation soapAction="urn:PrePostagemXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PrePostagemWSSOAP12Binding" type="axis2:PrePostagemWSPortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PrePostarObjeto">
+      <soap12:operation soapAction="urn:PrePostarObjeto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="execute">
+      <soap12:operation soapAction="urn:execute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="atualizaDestinatario">
+      <soap12:operation soapAction="urn:atualizaDestinatario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSituacaoNrObjeto">
+      <soap12:operation soapAction="urn:getSituacaoNrObjeto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEndereco">
+      <soap12:operation soapAction="urn:getEndereco" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml2">
+      <soap12:operation soapAction="urn:PrePostagemXml2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCentroCustoXml">
+      <soap12:operation soapAction="urn:getCentroCustoXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAbrangenciaServico">
+      <soap12:operation soapAction="urn:getAbrangenciaServico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostarObjetoComRegistro">
+      <soap12:operation soapAction="urn:PrePostarObjetoComRegistro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml">
+      <soap12:operation soapAction="urn:PrePostagemXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PrePostagemWSHttpBinding" type="axis2:PrePostagemWSPortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="PrePostarObjeto">
+      <http:operation location="PrePostagemWS/PrePostarObjeto" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="execute">
+      <http:operation location="PrePostagemWS/execute" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="atualizaDestinatario">
+      <http:operation location="PrePostagemWS/atualizaDestinatario" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getSituacaoNrObjeto">
+      <http:operation location="PrePostagemWS/getSituacaoNrObjeto" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEndereco">
+      <http:operation location="PrePostagemWS/getEndereco" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml2">
+      <http:operation location="PrePostagemWS/PrePostagemXml2" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCentroCustoXml">
+      <http:operation location="PrePostagemWS/getCentroCustoXml" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAbrangenciaServico">
+      <http:operation location="PrePostagemWS/getAbrangenciaServico" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostarObjetoComRegistro">
+      <http:operation location="PrePostagemWS/PrePostarObjetoComRegistro" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PrePostagemXml">
+      <http:operation location="PrePostagemWS/PrePostagemXml" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PrePostagemWS">
+    <wsdl:port name="PrePostagemWSSOAP11port_http" binding="axis2:PrePostagemWSSOAP11Binding">
+      <soap:address location="http://www.portalpostal.com.br/axis2/services/PrePostagemWS.PrePostagemWSSOAP11port_http/" />
+    </wsdl:port>
+    <wsdl:port name="PrePostagemWSSOAP12port_http" binding="axis2:PrePostagemWSSOAP12Binding">
+      <soap12:address location="http://www.portalpostal.com.br/axis2/services/PrePostagemWS.PrePostagemWSSOAP12port_http/" />
+    </wsdl:port>
+    <wsdl:port name="PrePostagemWSHttpport" binding="axis2:PrePostagemWSHttpBinding">
+      <http:address location="http://www.portalpostal.com.br/axis2/services/PrePostagemWS.PrePostagemWSHttpport/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
