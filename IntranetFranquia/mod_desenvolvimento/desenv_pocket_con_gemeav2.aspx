@@ -211,8 +211,8 @@
                                 <asp:GridView ID="gvProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvProduto_RowDataBound"
                                     DataKeyNames="COLECAO, MODELO, COR">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -259,8 +259,8 @@
                                                         <td valign="top">
                                                             <asp:GridView ID="gvProdutoCor" runat="server" Width="100%" AutoGenerateColumns="False"
                                                                 ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutoCor_RowDataBound">
-                                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                                 <Columns>
                                                                     <asp:TemplateField HeaderText="Cor" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left">
                                                                         <ItemTemplate>

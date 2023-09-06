@@ -135,8 +135,8 @@
                             <asp:GridView ID="gvAtacado" runat="server" AutoGenerateColumns="False" ShowFooter="true"
                                 ForeColor="#333333" Style="background: white; width: 3900px; border-collapse: collapse;"
                                 OnRowDataBound="gvAtacado_RowDataBound" OnSorting="gvAtacado_Sorting" AllowSorting="true" OnDataBound="gvAtacado_DataBound">
-                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                 <Columns>
                                     <asp:TemplateField HeaderStyle-Width="30px" ItemStyle-Width="30px" ItemStyle-HorizontalAlign="Center" ItemStyle-CssClass="corTD">
                                         <ItemTemplate>

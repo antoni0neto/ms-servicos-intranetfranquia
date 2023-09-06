@@ -94,8 +94,8 @@
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvCliente_RowDataBound"
                                                             OnDataBound="gvCliente_DataBound" AllowSorting="true" ShowFooter="true"
                                                             DataKeyNames="CODIGO_CLIENTE, CODIGO_CAMPANHA">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>

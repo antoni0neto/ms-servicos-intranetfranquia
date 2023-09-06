@@ -394,8 +394,8 @@
                                 <asp:GridView ID="gvMaisVendidos" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnDataBound="gvMaisVendidos_DataBound" OnRowDataBound="gvMaisVendidos_RowDataBound"
                                     ShowFooter="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

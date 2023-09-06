@@ -68,8 +68,8 @@
                                                         <asp:GridView ID="gvPrincipal" runat="server" Width="100%" AutoGenerateColumns="False"
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvPrincipal_RowDataBound"
                                                             OnDataBound="gvPrincipal_DataBound" ShowFooter="true" DataKeyNames="CODIGO">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>
@@ -133,8 +133,8 @@
                                                         <asp:GridView ID="gvDetalhe" runat="server" Width="100%" AutoGenerateColumns="False"
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvDetalhe_RowDataBound"
                                                             OnDataBound="gvDetalhe_DataBound" ShowFooter="true" DataKeyNames="CODIGO">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>

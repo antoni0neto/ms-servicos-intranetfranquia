@@ -99,10 +99,10 @@
                                     <asp:GridView ID="gvBatida" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvBatida_RowDataBound"
                                         OnDataBound="gvBatida_DataBound" ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
-                                            <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-BorderWidth="1" ItemStyle-BorderColor="Gray" ItemStyle-HorizontalAlign="Center" ItemStyle-BackColor="GradientActiveCaption">
+                                            <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-BorderWidth="1" ItemStyle-BorderColor="Gray" ItemStyle-HorizontalAlign="Center" ItemStyle-BackColor="Gainsboro">
                                                 <HeaderStyle BorderWidth="1" BorderColor="Gray" />
                                                 <FooterStyle BorderWidth="1" BorderColor="Gray" />
                                                 <ItemTemplate>
@@ -110,7 +110,7 @@
                                                 </ItemTemplate>
                                             </asp:TemplateField>
                                             <asp:TemplateField HeaderText="Data Referência" HeaderStyle-Width="120px" ItemStyle-BorderWidth="1" ItemStyle-BorderColor="Gray"
-                                                ItemStyle-BackColor="GradientActiveCaption" ItemStyle-HorizontalAlign="Left">
+                                                ItemStyle-BackColor="Gainsboro" ItemStyle-HorizontalAlign="Left">
                                                 <HeaderStyle BorderWidth="1" BorderColor="Gray" HorizontalAlign="Left" />
                                                 <FooterStyle BorderWidth="1" BorderColor="Gray" Font-Bold="true" />
                                                 <ItemTemplate>

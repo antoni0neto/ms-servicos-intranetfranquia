@@ -115,8 +115,8 @@
                                             <asp:GridView ID="gvVolume" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                 Style="background: white" OnRowDataBound="gvVolume_RowDataBound" OnDataBound="gvVolume_DataBound"
                                                 ShowFooter="true">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>

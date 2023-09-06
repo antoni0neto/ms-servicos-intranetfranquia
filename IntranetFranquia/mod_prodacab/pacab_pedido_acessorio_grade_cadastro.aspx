@@ -258,9 +258,9 @@
                                                 ForeColor="#333333" Style="background: white" ShowFooter="true"
                                                 OnRowDataBound="gvGrade_RowDataBound"
                                                 DataKeyNames="CODIGO">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Size="Smaller"></HeaderStyle>
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Size="Smaller"></HeaderStyle>
                                                 <RowStyle Font-Size="Smaller" HorizontalAlign="Center" />
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center" ItemStyle-Font-Size="Smaller">
                                                         <ItemTemplate>

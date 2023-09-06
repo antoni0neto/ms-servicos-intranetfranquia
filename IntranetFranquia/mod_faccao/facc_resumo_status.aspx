@@ -86,8 +86,8 @@
                                     Style="background: white" OnRowDataBound="gvFaccaoStatus_RowDataBound" OnDataBound="gvFaccaoStatus_DataBound"
                                     OnSorting="gvFaccaoStatus_Sorting"
                                     ShowFooter="true" AllowSorting="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

@@ -101,8 +101,8 @@
                             <div class="rounded_corners">
                                 <asp:GridView ID="gvDocumento" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                     Style="background: white" OnRowDataBound="gvDocumento_RowDataBound" OnSorting="gvDocumento_Sorting" AllowSorting="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

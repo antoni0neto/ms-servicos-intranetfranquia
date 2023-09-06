@@ -197,8 +197,8 @@
                                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutos_RowDataBound" OnSorting="gvProdutos_Sorting"
                                                     AllowSorting="true"
                                                     OnDataBound="gvProdutos_DataBound" ShowFooter="true" DataKeyNames="DESENV_PRODUTO">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>
@@ -214,10 +214,10 @@
                                                                     <asp:GridView ID="gvFoto" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvFoto_RowDataBound"
                                                                         Width="100%" DataKeyNames="CODIGO">
                                                                         <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                                        <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                                        <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                                         <Columns>
                                                                             <asp:TemplateField HeaderText="Foto Peça" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                                                ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                                ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                                 <ItemTemplate>
                                                                                     <asp:Image ID="imgFotoPeca" runat="server" ImageAlign="Middle" />
                                                                                     <asp:Image ID="imgFotoPeca2" runat="server" ImageAlign="Middle" />

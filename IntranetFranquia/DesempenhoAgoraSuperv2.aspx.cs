@@ -28,12 +28,24 @@ namespace Relatorios
 
                 var agoraRede = baseController.ObterAgoraRede("", null);
 
-                var usuario = usuarioController.ValidaUsuarioSuper("maurilio");
-                CarregarAgoraSuper(usuario, gvMaurilho, agoraRede);
+                var usuario = usuarioController.ValidaUsuarioSuper("dirceu");
+                CarregarAgoraSuper(usuario, gvDirceu, agoraRede);
 
                 LimparTotais();
-                usuario = usuarioController.ValidaUsuarioSuper("dirceu");
-                CarregarAgoraSuper(usuario, gvDirceu, agoraRede);
+                usuario = usuarioController.ValidaUsuarioSuper("diego");
+                CarregarAgoraSuper(usuario, gvDiego, agoraRede);
+
+                LimparTotais();
+                usuario = usuarioController.ValidaUsuarioSuper("edna.costa");
+                CarregarAgoraSuper(usuario, gvEdna, agoraRede);
+
+                LimparTotais();
+                usuario = usuarioController.ValidaUsuarioSuper("maurilio");
+                CarregarAgoraSuper(usuario, gvMaurilio, agoraRede);
+
+                LimparTotais();
+                usuario = usuarioController.ValidaUsuarioSuper("gabriel");
+                CarregarAgoraSuper(usuario, gvGabriel, agoraRede);
 
 
                 CarregarAgoraRede();

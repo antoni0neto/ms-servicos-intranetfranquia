@@ -99,8 +99,8 @@
                                             Style="background: white" OnRowDataBound="gvBoletoDespesa_RowDataBound" OnDataBound="gvBoletoDespesa_DataBound"
                                             ShowFooter="true"
                                             DataKeyNames="CODIGO_ACOMPANHAMENTO_ALUGUEL">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>

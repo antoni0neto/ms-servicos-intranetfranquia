@@ -121,8 +121,8 @@
                                                 <asp:GridView ID="gvCampanha" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                     Style="background: white" OnRowDataBound="gvCampanha_RowDataBound" OnDataBound="gvCampanha_DataBound"
                                                     ShowFooter="true">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" />
+                                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>
@@ -166,8 +166,8 @@
                                     <asp:GridView ID="gvPontoAcumulado" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" OnRowDataBound="gvPonto_RowDataBound" OnDataBound="gvPontoAcumulado_DataBound"
                                         ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>
@@ -214,8 +214,8 @@
                                     <asp:GridView ID="gvPontoResgatado" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" OnRowDataBound="gvPonto_RowDataBound" OnDataBound="gvPontoResgatado_DataBound"
                                         ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

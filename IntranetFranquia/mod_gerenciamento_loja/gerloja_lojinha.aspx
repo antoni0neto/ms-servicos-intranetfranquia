@@ -130,8 +130,8 @@
                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvProduto_RowDataBound"
                             OnDataBound="gvProduto_DataBound"
                             ShowFooter="true">
-                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                             <Columns>
                                 <asp:TemplateField HeaderText="" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="35px">
                                     <ItemTemplate>

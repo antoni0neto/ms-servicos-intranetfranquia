@@ -286,8 +286,8 @@
                                             ForeColor="#333333"
                                             ShowFooter="true"
                                             DataKeyNames="CODIGO">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                             <Columns>
                                                 <asp:ButtonField ButtonType="Image" ImageUrl="~/Image/edit.jpg" Text="Editar" CommandName="Select" />
 
@@ -355,8 +355,8 @@
                                     ForeColor="#333333"
                                     ShowFooter="true"
                                     DataKeyNames="CODIGO">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

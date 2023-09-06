@@ -63,8 +63,8 @@
                             <div class="rounded_corners">
                                 <asp:GridView ID="gvNotaMercadoria" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvNotaMercadoria_RowDataBound">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -117,8 +117,8 @@
                             <div class="rounded_corners">
                                 <asp:GridView ID="gvProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvProduto_RowDataBound">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -199,8 +199,8 @@
                                     <asp:GridView ID="gvProdutoNovo" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutoNovo_RowDataBound"
                                         ShowFooter="true" ShowHeader="false">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" ItemStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

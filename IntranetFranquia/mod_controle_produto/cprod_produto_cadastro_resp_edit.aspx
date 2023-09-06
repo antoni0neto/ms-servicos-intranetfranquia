@@ -132,7 +132,7 @@
                                                 <div class="rounded_corners">
                                                     <asp:GridView ID="gvComposicao" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                         Style="background: white">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                         <RowStyle HorizontalAlign="Left" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
@@ -169,7 +169,7 @@
                                             <div class="rounded_corners">
                                                 <asp:GridView ID="gvGrade" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                     Style="background: white" OnRowDataBound="gvGrade_RowDataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                     <RowStyle HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Cor" ItemStyle-HorizontalAlign="Left">
@@ -210,8 +210,8 @@
                                                 <div class="rounded_corners">
                                                     <asp:GridView ID="gvLavagem" runat="server" Width="100%" AutoGenerateColumns="False"
                                                         ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvLavagem_RowDataBound">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                                        <HeaderStyle BackColor="Gainsboro" />
+                                                        <FooterStyle BackColor="Gainsboro" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>

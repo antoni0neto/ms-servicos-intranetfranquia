@@ -434,8 +434,8 @@
                                 <asp:GridView ID="grdItens" runat="server" Width="100%"
                                                     ForeColor="#333333" Style="background: white" OnRowDataBound="grdItens_RowDataBound"
                                                     ShowFooter="true" DataKeyNames="PRODUTO, COR_PRODUTO">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="">
                                             <ItemTemplate>

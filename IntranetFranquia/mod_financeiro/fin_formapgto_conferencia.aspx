@@ -90,8 +90,8 @@
                                 <asp:GridView ID="gvFormaPagamento" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvFormaPagamento_RowDataBound"
                                     ShowFooter="true" DataKeyNames="CODIGO">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="20px">
                                             <ItemTemplate>

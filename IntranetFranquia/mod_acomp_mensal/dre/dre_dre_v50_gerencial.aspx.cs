@@ -20,7 +20,7 @@ namespace Relatorios
         DesenvolvimentoController desenvController = new DesenvolvimentoController();
         BaseController baseController = new BaseController();
 
-        Color corTitulo = System.Drawing.SystemColors.GradientActiveCaption;
+        Color corTitulo = Color.Gainsboro;
         Color corFundo = Color.WhiteSmoke;
         string tagCorNegativo = "#CD2626";
 
@@ -188,7 +188,7 @@ namespace Relatorios
                     else if (c.HeaderText == "Dezembro")
                         mes = 12;
 
-                    c.HeaderStyle.BackColor = SystemColors.GradientActiveCaption;
+                    c.HeaderStyle.BackColor = Color.Gainsboro;
                     var drefechamento = dreController.ObterDREFechamentoPeriodo(Convert.ToInt32(ano), mes, ddlTipo.SelectedValue);
                     if (drefechamento != null)
                         c.HeaderStyle.BackColor = Color.Gold;

@@ -78,11 +78,11 @@
                                     <asp:GridView ID="gvFiliaisConfiguracao" runat="server" Width="100.6%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white; margin-bottom: 0px;"
                                         ShowFooter="true" DataKeyNames="COD_FILIAL,FILIAL" OnDataBound="gvFiliaisConfiguracao_DataBound" OnRowDataBound="gvFiliaisConfiguracao_RowDataBound" >
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
 	                                    <SelectedRowStyle CssClass="DataGrid_SelectedItem"></SelectedRowStyle>
 	                                    <AlternatingRowStyle CssClass="DataGrid_AlternatingItem"></AlternatingRowStyle>
 	                                    <RowStyle HorizontalAlign="Center"></RowStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="Filial" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="1" ItemStyle-Width="250px" SortExpression="FILIAL">
                                                 <ItemTemplate>

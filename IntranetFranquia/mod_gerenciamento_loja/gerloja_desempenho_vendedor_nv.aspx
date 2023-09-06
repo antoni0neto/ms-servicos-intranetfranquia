@@ -80,8 +80,8 @@
                                         ForeColor="#333333" Style="background: white; width: 6400px;" OnRowDataBound="gvVendedor_RowDataBound"
                                         OnDataBound="gvVendedor_DataBound" ShowFooter="true"
                                         OnSorting="gvVendedor_Sorting" AllowSorting="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" Font-Size="Smaller" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" Font-Size="Smaller" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="20px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

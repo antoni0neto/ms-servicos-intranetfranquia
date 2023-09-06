@@ -116,8 +116,8 @@
                                     <asp:GridView ID="gvNotaRetiradaProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvNotaRetiradaProduto_RowDataBound"
                                         OnDataBound="gvNotaRetiradaProduto_DataBound" AllowSorting="true" ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

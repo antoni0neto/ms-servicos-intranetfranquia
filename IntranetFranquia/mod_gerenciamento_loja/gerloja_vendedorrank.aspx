@@ -71,8 +71,8 @@
                                                         <asp:GridView ID="gvPontoSemana" runat="server" Width="100%" AutoGenerateColumns="False"
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvPontoSemana_RowDataBound"
                                                             OnDataBound="gvPontoSemana_DataBound" ShowFooter="true">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>
@@ -129,8 +129,8 @@
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvPontoAcumulado_RowDataBound"
                                                             OnDataBound="gvPontoAcumulado_DataBound" ShowFooter="true"
                                                             OnPageIndexChanging="gvPontoAcumulado_PageIndexChanging" AllowPaging="true" PageSize="40">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <PagerStyle HorizontalAlign="Left" CssClass="pageStyl" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">

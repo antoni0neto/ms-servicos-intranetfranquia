@@ -114,8 +114,8 @@
                                 <asp:GridView ID="gvEntregaLoja" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                     Style="background: white" OnRowDataBound="gvEntregaLoja_RowDataBound" OnDataBound="gvEntregaLoja_DataBound"
                                     ShowFooter="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="Qtde SKU Novo" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center" ItemStyle-BackColor="LightCyan">
                                             <ItemTemplate>
@@ -186,8 +186,8 @@
                                     OnRowDataBound="gvEntregaLojaProduto_RowDataBound" OnDataBound="gvEntregaLojaProduto_DataBound"
                                     OnSorting="gvEntregaLojaProduto_Sorting"
                                     ShowFooter="true" AllowSorting="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" Font-Size="Smaller" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" Font-Size="Smaller" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="40px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

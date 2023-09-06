@@ -84,8 +84,8 @@
                                                         <asp:GridView ID="gvFotoVitrine" runat="server" Width="100%" AutoGenerateColumns="False"
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvFotoVitrine_RowDataBound"
                                                             OnDataBound="gvFotoVitrine_DataBound" ShowFooter="true">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>
@@ -152,8 +152,8 @@
                                                         <asp:GridView ID="gvFotoAcessorio" runat="server" Width="100%" AutoGenerateColumns="False"
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvFotoAcessorio_RowDataBound"
                                                             OnDataBound="gvFotoAcessorio_DataBound" ShowFooter="true">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>
@@ -220,8 +220,8 @@
                                                         <asp:GridView ID="gvFotoArmario" runat="server" Width="100%" AutoGenerateColumns="False"
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvFotoArmario_RowDataBound"
                                                             OnDataBound="gvFotoArmario_DataBound" ShowFooter="true">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>

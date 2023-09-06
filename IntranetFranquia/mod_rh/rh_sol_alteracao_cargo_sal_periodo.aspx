@@ -188,8 +188,8 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvStatusHistorico" runat="server" Visible="false" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" OnRowDataBound="gvStatusHistorico_RowDataBound">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

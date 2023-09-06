@@ -73,8 +73,8 @@
                             <div class="rounded_corners">
                                 <asp:GridView ID="gvUsuario" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvUsuario_RowDataBound">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

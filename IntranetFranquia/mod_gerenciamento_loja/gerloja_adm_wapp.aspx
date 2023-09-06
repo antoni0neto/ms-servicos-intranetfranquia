@@ -32,9 +32,9 @@
             <div class="rounded_corners">
                 <asp:GridView ID="gvWapp" runat="server" Width="100%"
                     AutoGenerateColumns="False" ShowFooter="true" OnRowDataBound="gvWapp_RowDataBound">
-                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                     <RowStyle HorizontalAlign="Center"></RowStyle>
-                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                     <Columns>
 
                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">

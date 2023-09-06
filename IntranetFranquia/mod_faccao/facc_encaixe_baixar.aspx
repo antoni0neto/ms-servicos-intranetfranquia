@@ -338,7 +338,7 @@
                                         <div class="rounded_corners">
                                             <asp:GridView ID="gvEncaixeHistorico" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                 Style="background: white" OnRowDataBound="gvEncaixeHistorico_RowDataBound">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                 <RowStyle HorizontalAlign="Left" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">

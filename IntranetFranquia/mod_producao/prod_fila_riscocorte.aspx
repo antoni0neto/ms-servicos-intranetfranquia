@@ -66,8 +66,8 @@
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvRiscoCorte_RowDataBound"
                                                             OnDataBound="gvRiscoCorte_DataBound" ShowFooter="true"
                                                             OnSorting="gvRiscoCorte_Sorting" AllowSorting="true" DataKeyNames="CODIGO">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>

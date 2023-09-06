@@ -66,8 +66,8 @@
                                         OnDataBound="gvPrincipal_DataBound" OnSorting="gvPrincipal_Sorting" AllowSorting="true"
                                         ShowFooter="true"
                                         DataKeyNames="PRODUTO, COR_PRODUTO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

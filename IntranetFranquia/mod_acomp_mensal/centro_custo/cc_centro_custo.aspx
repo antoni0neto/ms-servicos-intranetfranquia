@@ -88,10 +88,10 @@
                                 <asp:GridView ID="gvCentroCustoGrupo" runat="server" Width="100%" AutoGenerateColumns="False"
                                     CellPadding="0" ForeColor="#333333" Style="background: white" OnRowDataBound="gvCentroCustoGrupo_RowDataBound"
                                     OnDataBound="gvCentroCustoGrupo_DataBound" ShowFooter="true" BorderWidth="1"
-                                    BorderColor="GradientActiveCaption">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                                    BorderColor="Gainsboro">
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                                     <RowStyle Font-Bold="true" Height="24px" BackColor="WhiteSmoke" />
-                                    <FooterStyle Font-Bold="true" HorizontalAlign="Center" BackColor="GradientActiveCaption" />
+                                    <FooterStyle Font-Bold="true" HorizontalAlign="Center" BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" ItemStyle-Width="20px" ItemStyle-HorizontalAlign="Center"
                                             ItemStyle-VerticalAlign="Middle" ItemStyle-BorderWidth="1px" ItemStyle-BackColor="WhiteSmoke">
@@ -102,7 +102,7 @@
                                                     <asp:GridView ID="gvCentroCusto" runat="server" CellPadding="0" CellSpacing="0" AutoGenerateColumns="false"
                                                         OnDataBound="gvCentroCusto_DataBound" OnRowDataBound="gvCentroCusto_RowDataBound"
                                                         Width="100%" BorderColor="Red">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" BorderColor="WhiteSmoke" Height="5px"
+                                                        <HeaderStyle BackColor="Gainsboro" BorderColor="WhiteSmoke" Height="5px"
                                                             HorizontalAlign="Center"></HeaderStyle>
                                                         <RowStyle BackColor="White" Height="22px" BorderWidth="1" />
                                                         <Columns>
@@ -114,7 +114,7 @@
                                                                     <asp:Panel ID="pnlContaContabil" runat="server" Style="display: none" Width="100%"
                                                                         BorderColor="Red">
                                                                         <asp:GridView ID="gvContaContabil" runat="server" CellPadding="0" CellSpacing="0"
-                                                                            AutoGenerateColumns="false" OnDataBound="gvContaContabil_DataBound" BorderColor="GradientActiveCaption"
+                                                                            AutoGenerateColumns="false" OnDataBound="gvContaContabil_DataBound" BorderColor="Gainsboro"
                                                                             OnRowDataBound="gvContaContabil_RowDataBound" Width="100%">
                                                                             <RowStyle BorderColor="WhiteSmoke" Height="22px" BorderWidth="1" />
                                                                             <Columns>
@@ -125,7 +125,7 @@
                                                                                             Width="18px" runat="server" />
                                                                                         <asp:Panel ID="pnlFilial" runat="server" Style="display: none" Width="100%" BorderColor="Red">
                                                                                             <asp:GridView ID="gvFilial" runat="server" CellPadding="0" CellSpacing="0" AutoGenerateColumns="false"
-                                                                                                OnDataBound="gvFilial_DataBound" BorderColor="GradientActiveCaption" OnRowDataBound="gvFilial_RowDataBound"
+                                                                                                OnDataBound="gvFilial_DataBound" BorderColor="Gainsboro" OnRowDataBound="gvFilial_RowDataBound"
                                                                                                 Width="100%">
                                                                                                 <RowStyle BorderColor="WhiteSmoke" Height="22px" BorderWidth="1" />
                                                                                                 <Columns>

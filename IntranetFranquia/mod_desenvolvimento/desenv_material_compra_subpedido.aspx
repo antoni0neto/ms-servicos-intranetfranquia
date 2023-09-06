@@ -110,8 +110,8 @@
                                                                 ForeColor="#333333" Style="background: white" OnRowDataBound="gvAviamentoHB_RowDataBound"
                                                                 OnDataBound="gvAviamentoHB_DataBound" ShowFooter="true"
                                                                 DataKeyNames="CODIGO">
-                                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
-                                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
+                                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                                 <Columns>
                                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                         <ItemTemplate>

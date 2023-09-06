@@ -94,8 +94,8 @@
         <div class="rounded_corners">
             <asp:GridView ID="GridViewNotaRetiradaItem" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                 Style="background: white" OnRowDataBound="GridViewNotaRetiradaItem_RowDataBound" ShowFooter="true">
-                <HeaderStyle BackColor="GradientActiveCaption" />
-                <FooterStyle BackColor="GradientActiveCaption" />
+                <HeaderStyle BackColor="Gainsboro" />
+                <FooterStyle BackColor="Gainsboro" />
                 <Columns>
                     <asp:BoundField DataField="ITEM_PRODUTO" HeaderText="Item" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center" />
                     <asp:BoundField DataField="CODIGO_PRODUTO" HeaderText="Produto" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center" />

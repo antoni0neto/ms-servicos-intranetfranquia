@@ -246,8 +246,8 @@
                                 OnPageIndexChanging="gvClienteColecao_PageIndexChanging" AllowPaging="true" PageSize="20"
                                 OnRowDataBound="gvClienteColecao_RowDataBound" OnSorting="gvClienteColecao_Sorting" AllowSorting="true"
                                 OnDataBound="gvClienteColecao_DataBound">
-                                <HeaderStyle BackColor="GradientActiveCaption"></HeaderStyle>
-                                <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                <HeaderStyle BackColor="Gainsboro"></HeaderStyle>
+                                <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                 <PagerStyle HorizontalAlign="Center" CssClass="pageStyl" />
                                 <Columns>
                                     <asp:TemplateField HeaderStyle-Width="30px" ItemStyle-Width="30px" ItemStyle-HorizontalAlign="Center" ItemStyle-CssClass="corTD">

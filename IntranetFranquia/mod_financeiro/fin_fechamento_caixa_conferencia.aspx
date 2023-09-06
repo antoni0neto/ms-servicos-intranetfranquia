@@ -108,8 +108,8 @@
                                         <asp:GridView ID="gvFechamentos" runat="server" Width="100.5%" AutoGenerateColumns="False"
                                             ForeColor="#333333" Style="background: white"
                                             ShowFooter="true" DataKeyNames="DATA_FECHAMENTO" OnDataBound="gvFechamentos_DataBound" OnRowCommand="gvFechamentos_RowCommand" OnRowDataBound="gvFechamentos_RowDataBound">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                             <Columns>
 
                                                 <asp:TemplateField HeaderText="Filial">

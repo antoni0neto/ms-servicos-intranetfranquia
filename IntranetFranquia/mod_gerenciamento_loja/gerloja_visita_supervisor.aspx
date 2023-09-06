@@ -215,8 +215,8 @@
                                 <asp:GridView ID="gvCalendarioSemana" runat="server" Width="100%"
                                     AutoGenerateColumns="False" ShowFooter="true" OnRowDataBound="gvCalendarioSemana_RowDataBound"
                                     OnDataBound="gvCalendarioSemana_DataBound">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="">
                                             <ItemTemplate>

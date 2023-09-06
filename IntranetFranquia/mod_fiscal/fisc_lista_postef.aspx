@@ -48,8 +48,8 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvVendas" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:BoundField DataField="col" HeaderText="" ItemStyle-Width="25px" ItemStyle-HorizontalAlign="Center" />
                                             <asp:BoundField DataField="cod_filial" HeaderText="Código da Filial" Visible="false" ItemStyle-Font-Size="Smaller" />

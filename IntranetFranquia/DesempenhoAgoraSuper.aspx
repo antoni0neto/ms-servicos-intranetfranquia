@@ -27,9 +27,9 @@
                             <div class="rounded_corners">
                                 <asp:GridView runat="server" ID="GridViewAtingidoDennis" AutoGenerateColumns="false" ShowFooter="true"
                                     OnRowDataBound="GridViewAtingidoDennis_RowDataBound" OnDataBound="GridViewAtingidoDennis_DataBound" ForeColor="#333333">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
                                     <RowStyle Font-Size="Smaller" />
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" Font-Size="Smaller" />
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" Font-Size="Smaller" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="30px">
                                             <ItemTemplate>
@@ -67,9 +67,9 @@
                             <div class="rounded_corners">
                                 <asp:GridView runat="server" ID="GridViewAtingidoClaudia" AutoGenerateColumns="false" ShowFooter="true"
                                     OnRowDataBound="GridViewAtingidoClaudia_RowDataBound" OnDataBound="GridViewAtingidoClaudia_DataBound" ForeColor="#333333">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
                                     <RowStyle Font-Size="Smaller" />
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" Font-Size="Smaller" />
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" Font-Size="Smaller" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="30px">
                                             <ItemTemplate>
@@ -107,9 +107,9 @@
                             <div class="rounded_corners">
                                 <asp:GridView runat="server" ID="GridViewAtingidoMarcielly" AutoGenerateColumns="false" ShowFooter="true"
                                     OnRowDataBound="GridViewAtingidoMarcielly_RowDataBound" OnDataBound="GridViewAtingidoMarcielly_DataBound" ForeColor="#333333">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
                                     <RowStyle Font-Size="Smaller" />
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" Font-Size="Smaller" />
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" Font-Size="Smaller" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="30px">
                                             <ItemTemplate>
@@ -149,9 +149,9 @@
                             <div class="rounded_corners">
                                 <asp:GridView runat="server" ID="GridViewAtingidoRede" AutoGenerateColumns="false" ShowFooter="true"
                                     OnRowDataBound="GridViewAtingidoRede_RowDataBound" ForeColor="#333333" Width="100%">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Size="Smaller"></HeaderStyle>
                                     <RowStyle Font-Size="Smaller" />
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:BoundField DataField="filial" HeaderText="" ItemStyle-HorizontalAlign="Left" />
                                         <asp:TemplateField HeaderText="Vendas" ItemStyle-HorizontalAlign="Left">

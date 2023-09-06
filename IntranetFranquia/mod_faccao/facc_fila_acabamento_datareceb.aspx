@@ -77,9 +77,9 @@
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvRecebido_RowDataBound"
                                                             OnDataBound="gvRecebido_DataBound" OnSorting="gvRecebido_Sorting" AllowSorting="true" ShowFooter="true"
                                                             DataKeyNames="CODIGO_ENTRADA_QTDE">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                                                             <RowStyle Font-Size="Smaller" />
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>

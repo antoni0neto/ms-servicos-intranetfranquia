@@ -65,8 +65,8 @@
                                     <div class="rounded_corners">
                                         <asp:GridView ID="gvMovimento" runat="server" Width="100%" AutoGenerateColumns="False" ShowFooter="true"
                                             OnDataBound="gvMovimento_DataBound">
-                                            <HeaderStyle BackColor="GradientActiveCaption" />
-                                            <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" />
+                                            <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>
@@ -100,8 +100,8 @@
                     <td>
                         <div class="rounded_corners">
                             <asp:GridView ID="gridALancar" runat="server" Width="100%" AutoGenerateColumns="False">
-                                <HeaderStyle BackColor="GradientActiveCaption" />
-                                <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                <HeaderStyle BackColor="Gainsboro" />
+                                <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                 <Columns>
                                     <asp:TemplateField HeaderText="Lançar" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="100px">
                                         <ItemTemplate>

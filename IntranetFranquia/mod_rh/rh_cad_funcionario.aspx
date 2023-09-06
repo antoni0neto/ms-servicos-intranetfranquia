@@ -303,8 +303,8 @@
                                                 <asp:GridView ID="gvPeriodoTrabalho" runat="server" Width="100%" AutoGenerateColumns="False"
                                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvPeriodoTrabalho_RowDataBound"
                                                     OnDataBound="gvPeriodoTrabalho_DataBound" DataKeyNames="CODIGO" ShowFooter="true">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>
@@ -365,7 +365,7 @@
                                             <asp:GridView ID="gvTodos" runat="server" Width="100%" AutoGenerateColumns="False"
                                                 ForeColor="#333333" Style="background: white" OnRowDataBound="gvTodos_RowDataBound"
                                                 DataKeyNames="CODIGO">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>

@@ -91,7 +91,7 @@
                                 <tr>
                                     <td colspan="5">
                                         <div style="overflow: auto;">
-                                            <asp:Panel ID="pnlEmail" runat="server" BackColor="White" BorderWidth="0" BorderColor="GradientActiveCaption"
+                                            <asp:Panel ID="pnlEmail" runat="server" BackColor="White" BorderWidth="0" BorderColor="Gainsboro"
                                                 Height="100%">
                                             </asp:Panel>
                                         </div>

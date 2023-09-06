@@ -105,8 +105,8 @@
                                     Style="background: white" OnRowDataBound="gvVendaCalcado_RowDataBound" OnDataBound="gvVendaCalcado_DataBound"
                                     OnSorting="gvVendaCalcado_Sorting"
                                     ShowFooter="true" AllowSorting="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -122,13 +122,13 @@
                                                     <asp:GridView ID="gvHistMensal" runat="server" Width="100%" AutoGenerateColumns="False" HeaderStyle-CssClass="GVFixedHeader"
                                                         ForeColor="#333333" OnRowDataBound="gvHistMensal_RowDataBound" ShowFooter="true">
                                                         <HeaderStyle BackColor="LightSteelBlue" />
-                                                        <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                                        <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                                     </asp:GridView>
                                                 </asp:Panel>
                                             </ItemTemplate>
                                         </asp:TemplateField>
                                         <asp:TemplateField HeaderText="Foto" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                             <ItemTemplate>
                                                 <asp:Image ID="imgFotoPeca" runat="server" ImageAlign="Middle" Width="100px" />
                                             </ItemTemplate>

@@ -122,8 +122,8 @@
                                             Style="background: white" OnRowDataBound="gvLancamento_RowDataBound" OnDataBound="gvLancamento_DataBound"
                                             OnSorting="gvLancamento_Sorting"
                                             ShowFooter="true" AllowSorting="true">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="30px">
                                                     <ItemTemplate>

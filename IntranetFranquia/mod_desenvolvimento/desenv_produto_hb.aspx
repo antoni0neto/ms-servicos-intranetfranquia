@@ -68,8 +68,8 @@
                                 <asp:GridView ID="gvProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvProduto_RowDataBound"
                                     DataKeyNames="CODIGO">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -85,36 +85,36 @@
                                                     <asp:GridView ID="gvHB" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvHB_RowDataBound"
                                                         Width="100%" DataKeyNames="CODIGO">
                                                         <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                        <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                        <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="35px" ItemStyle-HorizontalAlign="Center"
-                                                                ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                 <ItemTemplate>
                                                                     <asp:Literal ID="litColuna" runat="server"></asp:Literal>
                                                                 </ItemTemplate>
                                                             </asp:TemplateField>
-                                                            <asp:BoundField DataField="HB" ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px"
+                                                            <asp:BoundField DataField="HB" ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px"
                                                                 HeaderStyle-Width="149px" HeaderText="HB" ItemStyle-HorizontalAlign="Center" />
                                                             <asp:TemplateField HeaderText="Coleção" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                HeaderStyle-Width="171px" ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                HeaderStyle-Width="171px" ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                 <ItemTemplate>
                                                                     <asp:Literal ID="litColecao" runat="server"></asp:Literal>
                                                                 </ItemTemplate>
                                                             </asp:TemplateField>
                                                             <asp:BoundField DataField="GRUPO" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px" HeaderText="Grupo"
+                                                                ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px" HeaderText="Grupo"
                                                                 HeaderStyle-Width="192px" />
                                                             <asp:BoundField DataField="NOME" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px" HeaderText="Nome"
+                                                                ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px" HeaderText="Nome"
                                                                 HeaderStyle-Width="150px" />
                                                             <asp:TemplateField HeaderText="Cor" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                HeaderStyle-Width="150px" ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                HeaderStyle-Width="150px" ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                 <ItemTemplate>
                                                                     <asp:Literal ID="litCor" runat="server"></asp:Literal>
                                                                 </ItemTemplate>
                                                             </asp:TemplateField>
                                                             <asp:TemplateField HeaderText="Foto Peça" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                                HeaderStyle-Width="260px" ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                HeaderStyle-Width="260px" ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                 <ItemTemplate>
                                                                     <asp:Image ID="imgFotoPeca" Width="80" Height="130" runat="server" ImageAlign="Middle" />
                                                                 </ItemTemplate>

@@ -188,8 +188,8 @@
                                     Style="background: white" OnRowDataBound="gvFaccaoHB_RowDataBound" OnDataBound="gvFaccaoHB_DataBound"
                                     OnSorting="gvFaccaoHB_Sorting" ShowFooter="true" AllowSorting="true"
                                     DataKeyNames="PROD_HB">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -295,8 +295,8 @@
                 <asp:Panel ID="pnlExcel" runat="server">
                     <asp:GridView ID="gvExcel" runat="server" Width="100%" AutoGenerateColumns="False" OnRowDataBound="gvExcel_RowDataBound"
                         ForeColor="#333333" Style="background: white" ShowFooter="true">
-                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                         <Columns>
                             <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                 <ItemTemplate>

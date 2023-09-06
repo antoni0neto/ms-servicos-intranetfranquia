@@ -46,8 +46,8 @@
                                     <asp:gridview id="gvFaturamento" runat="server" width="100%" autogeneratecolumns="False"
                                         forecolor="#333333" style="background: white" onrowdatabound="gvFaturamento_RowDataBound"
                                         showfooter="true" datakeynames="PEDIDO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>
@@ -94,8 +94,8 @@
                                     <asp:gridview id="gvFaturamentoLoja" runat="server" width="100%" autogeneratecolumns="False"
                                         forecolor="#333333" style="background: white" onrowdatabound="gvFaturamento_RowDataBound"
                                         showfooter="true" datakeynames="PEDIDO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>
@@ -142,8 +142,8 @@
                                     <asp:gridview id="gvFaturamentoLoggi" runat="server" width="100%" autogeneratecolumns="False"
                                         forecolor="#333333" style="background: white" onrowdatabound="gvFaturamento_RowDataBound"
                                         showfooter="true" datakeynames="PEDIDO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

@@ -446,8 +446,8 @@
                                         <asp:GridView ID="gvProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                             ForeColor="#333333" Style="background: white" ShowFooter="true" OnRowDataBound="gvProduto_RowDataBound"
                                             DataKeyNames="CODIGO" AllowSorting="true" OnSorting="gvProduto_Sorting">
-                                            <HeaderStyle BackColor="GradientActiveCaption" />
-                                            <FooterStyle BackColor="GradientActiveCaption" />
+                                            <HeaderStyle BackColor="Gainsboro" />
+                                            <FooterStyle BackColor="Gainsboro" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-Font-Bold="true"
                                                     ItemStyle-HorizontalAlign="Center">

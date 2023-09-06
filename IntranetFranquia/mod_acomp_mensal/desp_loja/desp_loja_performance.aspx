@@ -81,8 +81,8 @@
                             <asp:GridView runat="server" ID="gvPerformance" AutoGenerateColumns="false" Width="100%"
                                 OnRowDataBound="gvPerformance_RowDataBound" OnDataBound="gvPerformance_DataBound"
                                 ShowFooter="True" AllowSorting="true" OnSorting="gvPerformance_Sorting">
-                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                 <Columns>
                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="50px" ItemStyle-HorizontalAlign="Center">
                                         <ItemTemplate>

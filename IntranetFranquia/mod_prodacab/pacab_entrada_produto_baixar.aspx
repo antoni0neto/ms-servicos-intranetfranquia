@@ -108,7 +108,7 @@
                                             <div class="rounded_corners">
                                                 <asp:GridView ID="gvGradeVendaAtacado" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                     Style="background: white" OnRowDataBound="gvGradeVendaAtacado_RowDataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                     <RowStyle HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Grade" HeaderStyle-Width="150px" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left">
@@ -148,7 +148,7 @@
                                             <div class="rounded_corners">
                                                 <asp:GridView ID="gvGradeProducao" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                     Style="background: white" OnRowDataBound="gvGradeProducao_RowDataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                     <RowStyle HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Grade" HeaderStyle-Width="80px" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left">

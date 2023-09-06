@@ -172,8 +172,8 @@
                                     <asp:GridView ID="gvAcessorio" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" ShowFooter="true"
                                         DataKeyNames="CODIGO_DA" AllowSorting="true" OnRowDataBound="gvAcessorio_RowDataBound" OnSorting="gvAcessorio_Sorting" OnRowCommand="gvAcessorio_RowCommand">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="Pedido" HeaderStyle-HorizontalAlign="Left" HeaderStyle-Width="100px"
                                                 SortExpression="PEDIDO">

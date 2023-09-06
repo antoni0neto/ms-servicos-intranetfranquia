@@ -97,8 +97,8 @@
                             <div class="rounded_corners">
                                 <asp:GridView ID="gvRepresentante" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvRepresentante_RowDataBound" OnDataBound="gvRepresentante_DataBound" ShowFooter="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -115,7 +115,7 @@
                                                         Width="100%">
                                                         <HeaderStyle BackColor="LightBlue"></HeaderStyle>
                                                         <FooterStyle BackColor="LightBlue" Font-Bold="true"></FooterStyle>
-                                                        <RowStyle BorderColor="GradientActiveCaption" Height="22px" Font-Bold="false" BorderWidth="1" />
+                                                        <RowStyle BorderColor="Gainsboro" Height="22px" Font-Bold="false" BorderWidth="1" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>
@@ -194,8 +194,8 @@
             </fieldset>
             <asp:Panel ID="pnlExcel" runat="server">
                 <asp:GridView ID="gvExcel" runat="server" CellPadding="0" CellSpacing="0" Width="100%" AutoGenerateColumns="False">
-                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                     <Columns>
                         <asp:BoundField DataField="REPRESENTANTE" HeaderText="Representante" />
                         <asp:BoundField DataField="COD_CLIENTE" HeaderText="Código Cliente" />

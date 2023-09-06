@@ -144,8 +144,8 @@
                                         <asp:GridView ID="gvDepositos" runat="server" Width="100.5%" AutoGenerateColumns="False"
                                             ForeColor="#333333" Style="background: white"
                                             ShowFooter="true" DataKeyNames="CODIGO_FILIAL,FILIAL,DATA_DEPOSITO,VALOR_DEPOSITADO" OnDataBound="gvDepositos_DataBound" OnRowCommand="gvDepositos_RowCommand" OnRowDataBound="gvDepositos_RowDataBound">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="Filial" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="1" ItemStyle-Width="150px" SortExpression="FILIAL">
                                                     <ItemTemplate>
@@ -352,8 +352,8 @@
                                                 runat="server" Width="101%" AutoGenerateColumns="False"
                                                 ForeColor="#333333" Style="background: white"
                                                 ShowFooter="true" DataKeyNames="CODIGO_FILIAL,DATA_FECHAMENTO,VALOR_DINHEIRO" OnDataBound="gvReferencia_DataBound" OnRowCommand="gvReferencia_RowCommand" OnRowDataBound="gvReferencia_RowDataBound">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="Data do Fechamento" ItemStyle-HorizontalAlign="Center" ItemStyle-BorderWidth="1" ItemStyle-Width="160px" SortExpression="DATA_FECHAMENTO">
                                                         <ItemTemplate>
@@ -468,8 +468,8 @@
                                                     runat="server" Width="100%" AutoGenerateColumns="False" Font-Size="9px"
                                                     ForeColor="#333333" Style="background: white"
                                                     ShowFooter="true" DataKeyNames="CODIGO_DOCUMENTO,NOME_IMAGEM,DATA_LANCAMENTO,VALOR" OnDataBound="gvImagensVinculadas_DataBound" OnRowCommand="gvImagensVinculadas_RowCommand" OnRowDataBound="gvImagensVinculadas_RowDataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Arquivo" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="1" ItemStyle-Width="400px" SortExpression="NOME_IMAGEM">
                                                             <ItemTemplate>
@@ -526,8 +526,8 @@
                                                     runat="server" Width="100%" AutoGenerateColumns="False" Font-Size="9px"
                                                     ForeColor="#333333" Style="background: white"
                                                     ShowFooter="true" DataKeyNames="CODIGO_DOCUMENTO,NOME_IMAGEM,DATA_LANCAMENTO,VALOR" OnDataBound="gvImagensLancadas_DataBound" OnRowCommand="gvImagensLancadas_RowCommand" OnRowDataBound="gvImagensLancadas_RowDataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Arquivo" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="1" ItemStyle-Width="300px" SortExpression="NOME_IMAGEM">
                                                             <ItemTemplate>
@@ -574,8 +574,8 @@
                                                     runat="server" Width="100%" AutoGenerateColumns="False"
                                                     ForeColor="#333333" Style="background: white"
                                                     ShowFooter="true" DataKeyNames="CODIGO_FILIAL,DATA_FECHAMENTO,VALOR_DINHEIRO" OnDataBound="gvImagensReferencias_DataBound" OnRowDataBound="gvImagensReferencias_RowDataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Data do Fechamento" ItemStyle-HorizontalAlign="Center" ItemStyle-BorderWidth="1" ItemStyle-Width="190px" SortExpression="DATA_FECHAMENTO">
                                                             <ItemTemplate>
@@ -637,8 +637,8 @@
                                                     runat="server" Width="100%" AutoGenerateColumns="False"
                                                     ForeColor="#333333" Style="background: white" Font-Size="9px"
                                                     ShowFooter="true" DataKeyNames="CODIGO_IMAGEM,NOME_IMAGEM,DATA_DIGITADA" OnRowCommand="gvImagensDeposito_RowCommand" OnRowDataBound="gvImagensDeposito_RowDataBound" OnDataBound="gvImagensDeposito_DataBound">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="Arquivo" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="1" ItemStyle-Width="400px" SortExpression="NOME_IMAGEM">
                                                             <ItemTemplate>

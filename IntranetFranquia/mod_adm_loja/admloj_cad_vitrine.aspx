@@ -80,8 +80,8 @@
                                     <asp:GridView ID="gvVitrine" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" OnRowDataBound="gvVitrine_RowDataBound" ShowFooter="true"
                                         DataKeyNames="CODIGO_FILIAL, CODIGO_VITRINE, DATA_INI, DATA_FIM">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

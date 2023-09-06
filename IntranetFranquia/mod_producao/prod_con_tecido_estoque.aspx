@@ -216,7 +216,7 @@
                                                                 <div class="rounded_corners">
                                                                     <asp:GridView ID="gvComposicao" runat="server" Width="100%" AutoGenerateColumns="False"
                                                                         ForeColor="#333333" Style="background: white">
-                                                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                                         <Columns>
                                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                                 <ItemTemplate>
@@ -269,8 +269,8 @@
                                                     <asp:GridView ID="gvEntradas" runat="server" Width="100%" AutoGenerateColumns="False"
                                                         OnRowDataBound="gvEntradas_RowDataBound" OnDataBound="gvEntradas_DataBound"
                                                         ForeColor="#333333" ShowFooter="true" Style="background: white">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
-                                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center" />
+                                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>
@@ -399,8 +399,8 @@
                                                     <asp:GridView ID="gvHB" runat="server" Width="100%" AutoGenerateColumns="False"
                                                         OnRowDataBound="gvHB_RowDataBound" OnDataBound="gvHB_DataBound" OnSorting="gvHB_Sorting" AllowSorting="true"
                                                         ForeColor="#333333" ShowFooter="true" Style="background: white">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
-                                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center" />
+                                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>
@@ -545,8 +545,8 @@
                                                 <asp:GridView ID="gvPedidos" runat="server" Width="100%" AutoGenerateColumns="False"
                                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvPedidos_RowDataBound"
                                                     ShowFooter="true">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>

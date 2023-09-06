@@ -64,9 +64,9 @@
                 <div class="rounded_corners">
                     <asp:GridView ID="gvVendas" runat="server" Width="100%"
                         AutoGenerateColumns="False" ShowFooter="true" OnRowDataBound="gvVendas_RowDataBound">
-                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                         <RowStyle HorizontalAlign="Center"></RowStyle>
-                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                         <Columns>
                             <asp:BoundField DataField="DATA_VENDA" HeaderText="Data" />
                             <asp:TemplateField HeaderText="Vendas">

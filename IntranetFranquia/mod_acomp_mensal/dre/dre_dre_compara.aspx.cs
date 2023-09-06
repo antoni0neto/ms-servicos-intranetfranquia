@@ -18,7 +18,7 @@ namespace Relatorios
         DREController dreController = new DREController();
         BaseController baseController = new BaseController();
 
-        Color corTitulo = System.Drawing.SystemColors.GradientActiveCaption;
+        Color corTitulo = System.Drawing.Color.Gainsboro;
         Color corFundo = Color.WhiteSmoke;
         string tagCorNegativo = "#CD2626";
 

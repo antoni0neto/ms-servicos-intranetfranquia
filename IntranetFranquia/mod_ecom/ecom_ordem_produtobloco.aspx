@@ -153,8 +153,8 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvProduto1" runat="server" AutoGenerateColumns="false" CssClass="connectedSortable" Width="100%"
                                         OnRowDataBound="gvProduto_RowDataBound">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" ItemStyle-Width="30">
                                                 <ItemTemplate>
@@ -185,8 +185,8 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvProduto2" runat="server" AutoGenerateColumns="false" CssClass="connectedSortable" Width="100%"
                                         OnRowDataBound="gvProduto_RowDataBound">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" ItemStyle-Width="30">
                                                 <ItemTemplate>
@@ -217,8 +217,8 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvProduto3" runat="server" AutoGenerateColumns="false" CssClass="connectedSortable" Width="100%"
                                         OnRowDataBound="gvProduto_RowDataBound">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" ItemStyle-Width="30">
                                                 <ItemTemplate>

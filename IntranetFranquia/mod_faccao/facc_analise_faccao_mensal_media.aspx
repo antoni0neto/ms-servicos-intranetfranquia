@@ -164,9 +164,9 @@
                                     <asp:GridView ID="gvFaccaoAnaliseEntrega" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" OnRowDataBound="gvFaccaoAnaliseEntrega_RowDataBound"
                                         OnDataBound="gvFaccaoAnaliseEntrega_DataBound" ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
                                         <RowStyle HorizontalAlign="Center" />
-                                        <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" />
+                                        <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:BoundField DataField="DIAS" HeaderText="Dias" ItemStyle-Width="150px" />
                                             <asp:BoundField DataField="TAMANHO" HeaderText="Tamanho" />
@@ -191,9 +191,9 @@
                                     <asp:GridView ID="gvFaccaoAnaliseEntregaPorc" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                         Style="background: white" OnRowDataBound="gvFaccaoAnaliseEntregaPorc_RowDataBound" OnDataBound="gvFaccaoAnaliseEntregaPorc_DataBound"
                                         ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
                                         <RowStyle HorizontalAlign="Center" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:BoundField DataField="DIAS" HeaderText="Dias" ItemStyle-Width="150px" />
                                             <asp:BoundField DataField="TAMANHO" HeaderText="Tamanho" />

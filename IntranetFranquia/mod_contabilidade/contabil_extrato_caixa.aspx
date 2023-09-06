@@ -70,7 +70,7 @@
                     <div class="rounded_corners">
                         <asp:GridView ID="gvExtrato" runat="server" Width="100%" CssClass="DataGrid_Padrao"
                             AutoGenerateColumns="False" OnRowDataBound="gvExtrato_RowDataBound">
-                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                             <RowStyle HorizontalAlign="Center" />
                             <Columns>
                                 <asp:BoundField DataField="COD_FILIAL" HeaderText="Código Filial" Visible="false" />

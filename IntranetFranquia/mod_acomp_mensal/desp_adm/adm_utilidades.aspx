@@ -74,9 +74,9 @@
                                     <div class="rounded_corners">
                                         <asp:GridView ID="gvUtilidade" runat="server" Width="100%" AutoGenerateColumns="False"
                                             CellPadding="0" CellSpacing="5" ForeColor="#333333" Style="background: white"
-                                            BackColor="GradientActiveCaption" BorderColor="GradientActiveCaption" OnRowDataBound="gvUtilidade_RowDataBound"
+                                            BackColor="Gainsboro" BorderColor="Gainsboro" OnRowDataBound="gvUtilidade_RowDataBound"
                                             OnDataBound="gvUtilidade_DataBound">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                                             <RowStyle Font-Bold="true" Height="24px" BackColor="WhiteSmoke" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" ItemStyle-Width="20px" ItemStyle-HorizontalAlign="Center"
@@ -88,9 +88,9 @@
                                                             <asp:GridView ID="gvUtilidadeItem" runat="server" CellPadding="0" CellSpacing="0"
                                                                 AutoGenerateColumns="false" OnDataBound="gvUtilidadeItem_DataBound" OnRowDataBound="gvUtilidadeItem_RowDataBound"
                                                                 Width="100%">
-                                                                <HeaderStyle BackColor="GradientActiveCaption" BorderColor="GradientActiveCaption"
+                                                                <HeaderStyle BackColor="Gainsboro" BorderColor="Gainsboro"
                                                                     Height="5px" HorizontalAlign="Center"></HeaderStyle>
-                                                                <RowStyle BorderColor="GradientActiveCaption" Height="22px" BorderWidth="1" />
+                                                                <RowStyle BorderColor="Gainsboro" Height="22px" BorderWidth="1" />
                                                                 <Columns>
                                                                     <asp:TemplateField HeaderText="" ItemStyle-Font-Bold="true" ItemStyle-HorizontalAlign="Left"
                                                                         ItemStyle-Width="164px" ItemStyle-BorderWidth="1">

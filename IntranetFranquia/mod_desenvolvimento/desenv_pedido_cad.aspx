@@ -279,9 +279,9 @@
                                                     <asp:GridView ID="gvProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvProduto_RowDataBound"
                                                         DataKeyNames="CODIGO">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" />
+                                                        <HeaderStyle BackColor="Gainsboro" />
                                                         <RowStyle ForeColor="Gray" />
-                                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                                        <FooterStyle BackColor="Gainsboro" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>

@@ -78,8 +78,8 @@
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutoRecebido_RowDataBound"
                                     OnPageIndexChanging="gvProdutoRecebido_PageIndexChanging" PageSize="20" AllowPaging="true"
                                     ShowFooter="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:BoundField DataField="COL" HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center"
                                             HeaderStyle-HorizontalAlign="Center" />

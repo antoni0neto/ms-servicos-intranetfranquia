@@ -105,8 +105,8 @@
                                             <asp:GridView ID="gvAviamentoSelecionado" runat="server" Width="100%" AutoGenerateColumns="False"
                                                 ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvAviamentoSelecionado_RowDataBound"
                                                 OnDataBound="gvAviamentoSelecionado_DataBound" DataKeyNames="CODIGO">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>

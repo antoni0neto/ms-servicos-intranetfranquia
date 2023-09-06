@@ -98,8 +98,8 @@
                                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvTicket_RowDataBound"
                                                             ShowFooter="true"
                                                             DataKeyNames="CODIGO_FILIAL, TICKET, DATA_VENDA">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>

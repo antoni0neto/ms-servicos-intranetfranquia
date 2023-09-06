@@ -107,8 +107,8 @@
                                 <asp:GridView ID="gvAviamento" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvAviamento_RowDataBound"
                                     DataKeyNames="CODIGO">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -118,7 +118,7 @@
                                         <asp:BoundField DataField="HB" HeaderText="HB" HeaderStyle-Width="75px" HeaderStyle-HorizontalAlign="Center"
                                             ItemStyle-HorizontalAlign="Center" />
                                         <asp:TemplateField HeaderText="Nome" HeaderStyle-Width="205px" ItemStyle-HorizontalAlign="Left"
-                                            HeaderStyle-HorizontalAlign="Left" ItemStyle-BorderColor="GradientActiveCaption"
+                                            HeaderStyle-HorizontalAlign="Left" ItemStyle-BorderColor="Gainsboro"
                                             ItemStyle-BorderWidth="1px">
                                             <ItemTemplate>
                                                 <asp:Literal ID="litGrupoNome" runat="server"></asp:Literal>
@@ -129,7 +129,7 @@
                                         <asp:BoundField DataField="QTDE" HeaderText="Qtde" HeaderStyle-Width="130px" HeaderStyle-HorizontalAlign="Center"
                                             ItemStyle-HorizontalAlign="Center" />
                                         <asp:TemplateField HeaderText="Comprado" HeaderStyle-Width="130px" ItemStyle-HorizontalAlign="Center"
-                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                             <ItemTemplate>
                                                 <asp:Literal ID="litComprado" runat="server"></asp:Literal>
                                             </ItemTemplate>
@@ -137,7 +137,7 @@
                                         <asp:BoundField DataField="DESCRICAO" HeaderText="Descrição" HeaderStyle-HorizontalAlign="Left"
                                             ItemStyle-HorizontalAlign="Left" />
                                         <asp:TemplateField HeaderText="Compra Extra" HeaderStyle-Width="130px" ItemStyle-HorizontalAlign="Center"
-                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                             <ItemTemplate>
                                                 <asp:Literal ID="litCompraExtra" runat="server"></asp:Literal>
                                             </ItemTemplate>

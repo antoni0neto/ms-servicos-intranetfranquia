@@ -81,10 +81,10 @@
                                     <div class="rounded_corners">
                                         <asp:GridView ID="gvClassificacao" runat="server" Width="100%" AutoGenerateColumns="False"
                                             CellPadding="0" CellSpacing="5" ForeColor="#333333" Style="background: white"
-                                            BackColor="GradientActiveCaption" BorderColor="GradientActiveCaption" OnRowDataBound="gvClassificacao_RowDataBound"
+                                            BackColor="Gainsboro" BorderColor="Gainsboro" OnRowDataBound="gvClassificacao_RowDataBound"
                                             OnDataBound="gvClassificacao_DataBound" ShowFooter="true">
-                                            <HeaderStyle BackColor="GradientActiveCaption" Height="22px" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" Height="22px" HorizontalAlign="Center" Font-Bold="true"></FooterStyle>
+                                            <HeaderStyle BackColor="Gainsboro" Height="22px" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" Height="22px" HorizontalAlign="Center" Font-Bold="true"></FooterStyle>
                                             <RowStyle Font-Bold="true" Height="24px" BackColor="GhostWhite" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="0">

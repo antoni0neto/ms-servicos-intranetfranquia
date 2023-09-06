@@ -95,8 +95,8 @@
                                     <asp:GridView ID="gvBatida" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvBatida_RowDataBound"
                                         OnDataBound="gvBatida_DataBound" DataKeyNames="CODIGO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>
@@ -166,8 +166,8 @@
                                     <asp:GridView ID="gvBatidaNova" runat="server" Width="100%" AutoGenerateColumns="False" ShowHeader="false"
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvBatida_RowDataBound"
                                         OnDataBound="gvBatida_DataBound" ShowFooter="true" DataKeyNames="CODIGO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" FooterStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

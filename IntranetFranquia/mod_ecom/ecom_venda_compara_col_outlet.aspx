@@ -118,7 +118,7 @@
                                                     <asp:GridView ID="gvProdutoGrupo" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvProdutoGrupo_RowDataBound" OnDataBound="gvProdutoGrupo_DataBound" ShowFooter="true"
                                                         Width="100%">
                                                         <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Left"></HeaderStyle>
-                                                        <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                        <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                         <Columns>
 
                                                             <asp:BoundField DataField="GRUPO_PRODUTO" HeaderText="Grupo Produto" SortExpression="GRUPO_PRODUTO" />

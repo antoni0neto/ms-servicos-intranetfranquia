@@ -109,8 +109,8 @@
                                             <asp:GridView ID="gvProdutoRecebido" runat="server" Width="100%" AutoGenerateColumns="False"
                                                 ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutoRecebido_RowDataBound"
                                                 DataKeyNames="CODIGO">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>
@@ -125,43 +125,43 @@
                                                                 <asp:GridView ID="gvNotaMercadoriaRecebida" runat="server" AutoGenerateColumns="false"
                                                                     OnRowDataBound="gvNotaMercadoriaRecebida_RowDataBound" Width="100%" DataKeyNames="CODIGO">
                                                                     <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                                    <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                                    <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                                     <Columns>
                                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="23px" ItemStyle-HorizontalAlign="Center"
-                                                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                             <ItemTemplate>
                                                                                 <asp:Literal ID="litColuna" runat="server"></asp:Literal>
                                                                             </ItemTemplate>
                                                                         </asp:TemplateField>
-                                                                        <asp:BoundField DataField="NUMERO_NF_TRANSFERENCIA" HeaderText="NF" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="NUMERO_NF_TRANSFERENCIA" HeaderText="NF" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" HeaderStyle-Width="177px" HeaderStyle-HorizontalAlign="Left" />
                                                                         <asp:TemplateField HeaderText="Emissão" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left"
-                                                                            ItemStyle-BorderColor="GradientActiveCaption" HeaderStyle-Width="151px" ItemStyle-BorderWidth="1px">
+                                                                            ItemStyle-BorderColor="Gainsboro" HeaderStyle-Width="151px" ItemStyle-BorderWidth="1px">
                                                                             <ItemTemplate>
                                                                                 <asp:Literal ID="litEmissao" runat="server"></asp:Literal>
                                                                             </ItemTemplate>
                                                                         </asp:TemplateField>
-                                                                        <asp:BoundField DataField="SERIE_NF_ENTRADA" HeaderText="Série" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="SERIE_NF_ENTRADA" HeaderText="Série" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" HeaderStyle-Width="94px" HeaderStyle-HorizontalAlign="Left" />
                                                                         <asp:TemplateField HeaderText="Grade" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left"
-                                                                            ItemStyle-BorderColor="GradientActiveCaption" HeaderStyle-Width="95px" ItemStyle-BorderWidth="1px">
+                                                                            ItemStyle-BorderColor="Gainsboro" HeaderStyle-Width="95px" ItemStyle-BorderWidth="1px">
                                                                             <ItemTemplate>
                                                                                 <asp:Literal ID="litTipoNota" runat="server"></asp:Literal>
                                                                             </ItemTemplate>
                                                                         </asp:TemplateField>
-                                                                        <asp:BoundField DataField="EXP_RECEBIDO" HeaderText="EXP" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="EXP_RECEBIDO" HeaderText="EXP" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
-                                                                        <asp:BoundField DataField="XP_RECEBIDO" HeaderText="XP" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="XP_RECEBIDO" HeaderText="XP" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
-                                                                        <asp:BoundField DataField="PP_RECEBIDO" HeaderText="PP" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="PP_RECEBIDO" HeaderText="PP" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
-                                                                        <asp:BoundField DataField="P_RECEBIDO" HeaderText="P" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="P_RECEBIDO" HeaderText="P" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
-                                                                        <asp:BoundField DataField="M_RECEBIDO" HeaderText="M" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="M_RECEBIDO" HeaderText="M" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
-                                                                        <asp:BoundField DataField="G_RECEBIDO" HeaderText="G" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="G_RECEBIDO" HeaderText="G" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
-                                                                        <asp:BoundField DataField="GG_RECEBIDO" HeaderText="GG" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                        <asp:BoundField DataField="GG_RECEBIDO" HeaderText="GG" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="70px" />
                                                                     </Columns>
                                                                 </asp:GridView>
@@ -215,8 +215,8 @@
                                             <asp:GridView ID="gvProdutoEmTransito" runat="server" Width="100%" AutoGenerateColumns="False"
                                                 ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutoEmTransito_RowDataBound"
                                                 DataKeyNames="CODIGO">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>
@@ -229,13 +229,13 @@
                                                         HeaderStyle-HorizontalAlign="Left" />
                                                     <asp:BoundField DataField="QTDE_ENTRADA_NOTA" HeaderText="Qtde Nota" HeaderStyle-Width="95px"
                                                         ItemStyle-HorizontalAlign="Center" HeaderStyle-HorizontalAlign="Center" />
-                                                    <asp:BoundField DataField="NUMERO_NF_TRANSFERENCIA" HeaderText="NF" ItemStyle-BorderColor="GradientActiveCaption"
+                                                    <asp:BoundField DataField="NUMERO_NF_TRANSFERENCIA" HeaderText="NF" ItemStyle-BorderColor="Gainsboro"
                                                         ItemStyle-BorderWidth="1px" HeaderStyle-Width="189px" HeaderStyle-HorizontalAlign="Left" />
-                                                    <asp:BoundField DataField="SERIE_NF_ENTRADA" HeaderText="Série" ItemStyle-BorderColor="GradientActiveCaption"
+                                                    <asp:BoundField DataField="SERIE_NF_ENTRADA" HeaderText="Série" ItemStyle-BorderColor="Gainsboro"
                                                         ItemStyle-BorderWidth="1px" HeaderStyle-Width="120px" HeaderStyle-HorizontalAlign="Center"
                                                         ItemStyle-HorizontalAlign="Center" />
                                                     <asp:BoundField DataField="EMISSAO" HeaderText="Emissão" DataFormatString="{0:d}"
-                                                        ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px" HeaderStyle-HorizontalAlign="Left" />
+                                                        ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px" HeaderStyle-HorizontalAlign="Left" />
                                                 </Columns>
                                             </asp:GridView>
                                         </div>
@@ -251,8 +251,8 @@
                                                 <asp:GridView ID="gvProdutoRecebidoOK" runat="server" Width="100%" AutoGenerateColumns="False"
                                                     ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvProdutoRecebidoOK_RowDataBound"
                                                     DataKeyNames="CODIGO">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>

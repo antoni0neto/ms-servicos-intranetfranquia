@@ -266,7 +266,7 @@ namespace Relatorios
             GridViewRow firstBlankRow = gvCMV.Rows[gvCMV.Rows.Count - 3];
             if (firstBlankRow != null)
             {
-                firstBlankRow.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+                firstBlankRow.BackColor = Color.Gainsboro;
                 firstBlankRow.Cells[0].Attributes["style"] = "border-bottom: 1px solid #F5F5F5";
             }
 
@@ -274,7 +274,7 @@ namespace Relatorios
             if (lastBlankRow != null)
             {
                 //Tratamento para cor
-                lastBlankRow.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+                lastBlankRow.BackColor = Color.Gainsboro;
                 int count = gvCMV.Columns.Count;
                 for (int i = 0; i < count; i++)
                     lastBlankRow.Cells[i].BorderWidth = Unit.Pixel(1);

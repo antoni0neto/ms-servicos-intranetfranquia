@@ -58,8 +58,8 @@
                                         <asp:GridView ID="gvCorreio" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                             Style="background: white" OnRowDataBound="gvCorreio_RowDataBound" OnDataBound="gvCorreio_DataBound"
                                             ShowFooter="true" DataKeyNames="CODIGO_FILIAL">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="30px">
                                                     <ItemTemplate>

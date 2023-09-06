@@ -21,7 +21,7 @@ namespace Relatorios.mod_acomp_mensal.centro_custo
         BaseController baseController = new BaseController();
         ContabilidadeController contabilidadeController = new ContabilidadeController();
 
-        Color corTitulo = System.Drawing.SystemColors.GradientActiveCaption;
+        Color corTitulo = Color.Gainsboro;
         Color corFundo = Color.WhiteSmoke;
         string tagCorNegativo = "#CD2626";
 

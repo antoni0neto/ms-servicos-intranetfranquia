@@ -627,7 +627,7 @@
                                 <asp:GridView ID="gvPrePedidoTotal" runat="server" AutoGenerateColumns="False" OnRowDataBound="gvPrePedidoTotal_RowDataBound"
                                     ForeColor="#333333" Style="background: white; width: 2850px; border-collapse: collapse;"
                                     ShowFooter="false" ShowHeader="false">
-                                    <RowStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                    <RowStyle BackColor="Gainsboro" Font-Bold="true" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" ItemStyle-Width="18px" ItemStyle-HorizontalAlign="Center" ItemStyle-Font-Size="Smaller">
                                             <ItemTemplate>

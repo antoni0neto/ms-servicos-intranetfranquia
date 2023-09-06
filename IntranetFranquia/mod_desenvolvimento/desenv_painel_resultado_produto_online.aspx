@@ -245,8 +245,8 @@
                                     OnRowDataBound="gvResultadoProduto_RowDataBound" OnDataBound="gvResultadoProduto_DataBound"
                                     OnSorting="gvResultadoProduto_Sorting"
                                     ShowFooter="true" AllowSorting="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" Font-Size="Smaller" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" Font-Size="Smaller" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="40px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

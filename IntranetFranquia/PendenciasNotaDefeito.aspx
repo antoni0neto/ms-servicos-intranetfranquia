@@ -29,8 +29,8 @@
                 <fieldset style="padding-top: 0;">
                     <asp:GridView ID="gvTotalNotaDefeito" runat="server" Width="100%" AutoGenerateColumns="False"
                         ForeColor="#333333" Style="background: white" ShowFooter="true">
-                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                         <Columns>
                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                 <ItemTemplate>

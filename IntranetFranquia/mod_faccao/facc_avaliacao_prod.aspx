@@ -91,8 +91,8 @@
                                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvAvaliacao_RowDataBound" OnDataBound="gvAvaliacao_DataBound"
                                                     OnSorting="gvAvaliacao_Sorting" AllowSorting="true"
                                                     ShowFooter="true" DataKeyNames="CODIGO">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>

@@ -127,8 +127,8 @@
                                                             OnDataBound="gvProduto_DataBound"
                                                             OnSorting="gvProduto_Sorting" AllowSorting="true" ShowFooter="true"
                                                             DataKeyNames="PRODUTO, COR">
-                                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                             <Columns>
                                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                                     <ItemTemplate>
@@ -144,7 +144,7 @@
                                                                             <asp:GridView ID="gvEstoque" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvEstoque_RowDataBound"
                                                                                 Width="100%">
                                                                                 <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                                                <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                                                <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                                                 <Columns>
                                                                                     <asp:BoundField DataField="TAM1" HeaderText="" ItemStyle-HorizontalAlign="Center" />
                                                                                     <asp:BoundField DataField="TAM2" HeaderText="" ItemStyle-HorizontalAlign="Center" />

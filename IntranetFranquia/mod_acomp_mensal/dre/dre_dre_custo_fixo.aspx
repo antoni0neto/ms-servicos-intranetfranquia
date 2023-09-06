@@ -55,8 +55,8 @@
                                         <asp:GridView ID="gvProducao" runat="server" Width="100%" AutoGenerateColumns="False"
                                             ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvProducao_RowDataBound"
                                             OnDataBound="gvProducao_DataBound" OnSorting="gvProducao_Sorting" AllowSorting="true">
-                                            <HeaderStyle BackColor="GradientActiveCaption" Font-Size="Small" HorizontalAlign="Left"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" Font-Size="Small" HorizontalAlign="Left"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>

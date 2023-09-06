@@ -10,6 +10,7 @@ using DAL;
 using System.IO;
 using System.Drawing;
 using System.Text;
+using iTextSharp.text;
 
 namespace Relatorios
 {
@@ -245,7 +246,7 @@ namespace Relatorios
             GridViewRow firstBlankRow = gvComissao.Rows[gvComissao.Rows.Count - 3];
             if (firstBlankRow != null)
             {
-                firstBlankRow.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+                firstBlankRow.BackColor = System.Drawing.Color.Gainsboro;
                 firstBlankRow.Cells[0].Attributes["style"] = "border-bottom: 1px solid #F5F5F5";
             }
 
@@ -253,7 +254,7 @@ namespace Relatorios
             if (lastBlankRow != null)
             {
                 //Tratamento para cor
-                lastBlankRow.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+                lastBlankRow.BackColor = System.Drawing.Color.Gainsboro;
                 int count = gvComissao.Columns.Count;
                 for (int i = 0; i < count; i++)
                     lastBlankRow.Cells[i].BorderWidth = Unit.Pixel(1);

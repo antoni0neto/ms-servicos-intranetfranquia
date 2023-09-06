@@ -95,8 +95,8 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvNConformidades" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" DataKeyNames="CODIGO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <AlternatingRowStyle CssClass="alternate" />
                                         <Columns>
                                             <asp:BoundField DataField="FILIAL" HeaderText="Loja" SortExpression="FILIAL" />

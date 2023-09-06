@@ -488,8 +488,8 @@
                                     DataKeyNames="CODIGO"
                                     DataSourceID="odsGridImposto"
                                     OnRowCommand="gvFreteImposto_RowCommand">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Left" />
                                     <Columns>
 
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">

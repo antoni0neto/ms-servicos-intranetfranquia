@@ -62,10 +62,10 @@
                                         <asp:GridView ID="gvVarejo" runat="server" Width="100%" AutoGenerateColumns="False"
                                             ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvVarejo_RowDataBound"
                                             OnDataBound="gvVarejo_DataBound">
-                                            <HeaderStyle BackColor="GradientActiveCaption" Font-Size="Small" HorizontalAlign="Center">
+                                            <HeaderStyle BackColor="Gainsboro" Font-Size="Small" HorizontalAlign="Center">
                                             </HeaderStyle>
                                             <RowStyle Font-Bold="true" />
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Right" Font-Bold="true" />
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Right" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="20px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>

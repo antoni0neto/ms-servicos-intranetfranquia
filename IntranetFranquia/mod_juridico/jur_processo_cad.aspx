@@ -157,8 +157,8 @@
                                     <asp:GridView ID="gvProcesso" runat="server" Width="100%" AutoGenerateColumns="False"
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvProcesso_RowDataBound"
                                         DataKeyNames="CODIGO">
-                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                        <HeaderStyle BackColor="Gainsboro" />
+                                        <FooterStyle BackColor="Gainsboro" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="Fase" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left"
                                                 HeaderStyle-Width="180px">

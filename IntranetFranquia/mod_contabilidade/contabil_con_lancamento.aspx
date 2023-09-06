@@ -78,7 +78,7 @@
                                 <div class="rounded_corners">
                                     <asp:GridView ID="gvLancamento" runat="server" Width="100%"
                                         AutoGenerateColumns="False" OnRowDataBound="gvLancamento_RowDataBound">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
                                         <RowStyle HorizontalAlign="Left" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">

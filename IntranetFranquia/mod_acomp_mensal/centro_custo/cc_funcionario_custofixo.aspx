@@ -96,10 +96,10 @@
                                 <asp:GridView ID="gvCentroCustoFuncionario" runat="server" Width="100%" AutoGenerateColumns="False"
                                     CellPadding="0" ForeColor="#333333" Style="background: white"
                                     ShowFooter="true" BorderWidth="1"  AllowSorting="true"
-                                    BorderColor="GradientActiveCaption" OnRowDataBound="gvCentroCustoFuncionario_RowDataBound" OnDataBound="gvCentroCustoFuncionario_DataBound" OnSorting="gvCentroCustoFuncionario_Sorting">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
+                                    BorderColor="Gainsboro" OnRowDataBound="gvCentroCustoFuncionario_RowDataBound" OnDataBound="gvCentroCustoFuncionario_DataBound" OnSorting="gvCentroCustoFuncionario_Sorting">
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
                                     <RowStyle Font-Bold="true" Height="24px" BackColor="WhiteSmoke" />
-                                    <FooterStyle Font-Bold="true" HorizontalAlign="Center" BackColor="GradientActiveCaption" />
+                                    <FooterStyle Font-Bold="true" HorizontalAlign="Center" BackColor="Gainsboro" />
                                     <AlternatingRowStyle BackColor="GhostWhite" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="Grupo Centro Custo" ItemStyle-HorizontalAlign="Left" ItemStyle-BorderWidth="1" ItemStyle-Width="250px" SortExpression="DESC_GRUPO_CENTRO_CUSTO" >

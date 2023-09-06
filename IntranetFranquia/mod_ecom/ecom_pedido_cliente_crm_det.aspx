@@ -210,8 +210,8 @@
                                                 <asp:GridView ID="gvMaisCompra" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                     Style="background: white" OnRowDataBound="gvMaisCompra_RowDataBound"
                                                     ShowFooter="true">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" />
+                                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>
@@ -256,8 +256,8 @@
                                                 <asp:GridView ID="gvHistCliente" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                     Style="background: white" OnRowDataBound="gvHistCliente_RowDataBound" OnDataBound="gvHistCliente_DataBound"
                                                     ShowFooter="true">
-                                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                                    <HeaderStyle BackColor="Gainsboro" />
+                                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                                     <Columns>
                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                             <ItemTemplate>
@@ -273,7 +273,7 @@
                                                                     <asp:GridView ID="gvHistClienteProduto" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvHistClienteProduto_RowDataBound" OnDataBound="gvHistClienteProduto_DataBound" ShowFooter="true"
                                                                         Width="100%">
                                                                         <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                                        <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                                        <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                                         <Columns>
                                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="100px" ItemStyle-HorizontalAlign="Center" ItemStyle-VerticalAlign="Middle">
                                                                                 <ItemTemplate>

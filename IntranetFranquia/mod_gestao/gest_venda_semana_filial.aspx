@@ -80,8 +80,8 @@
                                             <asp:GridView ID="gvProdutos" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                 Style="background: white" OnRowDataBound="gvProdutos_RowDataBound" OnDataBound="gvProdutos_DataBound" ShowFooter="true"
                                                 OnSorting="gvProdutos_Sorting" AllowSorting="true">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                                <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                                <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                                 <RowStyle HorizontalAlign="Left" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">

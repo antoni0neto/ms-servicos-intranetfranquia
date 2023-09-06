@@ -91,8 +91,8 @@
                                 <asp:GridView ID="gvMolde" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                     Style="background: white" OnRowDataBound="gvMolde_RowDataBound"
                                     OnSorting="gvMolde_Sorting" AllowSorting="true">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>

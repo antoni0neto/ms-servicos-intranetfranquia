@@ -104,8 +104,8 @@
                 <div class="rounded_corners">
                     <asp:GridView ID="gvHistRep" runat="server" Width="100%" AutoGenerateColumns="False" HeaderStyle-CssClass="GVFixedHeader"
                         ForeColor="#333333" OnRowDataBound="gvHistRep_RowDataBound" OnDataBound="gvHistRep_DataBound" ShowFooter="true">
-                        <HeaderStyle BackColor="GradientActiveCaption" />
-                        <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                        <HeaderStyle BackColor="Gainsboro" />
+                        <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                     </asp:GridView>
                 </div>
             </fieldset>

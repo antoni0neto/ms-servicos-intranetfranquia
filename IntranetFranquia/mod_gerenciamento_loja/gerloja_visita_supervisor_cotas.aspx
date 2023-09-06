@@ -266,8 +266,8 @@
                                 <asp:GridView ID="gvCotaComp" runat="server" Width="100%"
                                     AutoGenerateColumns="False" ShowFooter="true" OnRowDataBound="gvCotaComp_RowDataBound"
                                     OnDataBound="gvCotaComp_DataBound">
-                                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                    <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" Font-Names="Arial" />
+                                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                    <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" Font-Names="Arial" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="Mês" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left" HeaderStyle-Width="60px" ItemStyle-Font-Size="Smaller" FooterStyle-Font-Names="Arial" FooterStyle-Font-Size="Smaller" FooterStyle-ForeColor="Black">
                                             <ItemTemplate>
@@ -294,7 +294,7 @@
                                                 <asp:Label ID="labQtdePremioAnt" runat="server" Text='<%# Bind("QTDE_PREMIO_ANT")%>' Font-Names="Arial" Font-Bold="true" Font-Size="Smaller"></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:BoundField DataField="" HeaderText="" HeaderStyle-Width="2px" ItemStyle-BackColor="GradientActiveCaption" />
+                                        <asp:BoundField DataField="" HeaderText="" HeaderStyle-Width="2px" ItemStyle-BackColor="Gainsboro" />
 
                                         <asp:TemplateField HeaderText="Cota" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left" FooterStyle-HorizontalAlign="Left" HeaderStyle-Width="" FooterStyle-Font-Names="Arial" FooterStyle-Font-Size="Smaller" FooterStyle-ForeColor="Black">
                                             <ItemTemplate>

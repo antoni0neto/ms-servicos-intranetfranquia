@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Relatorios {
-    
-    
-    public partial class DesempenhoAgoraSuperv2 {
-        
+namespace Relatorios
+{
+
+
+    public partial class DesempenhoAgoraSuperv2
+    {
+
         /// <summary>
         /// gvDirceu control.
         /// </summary>
@@ -20,16 +22,43 @@ namespace Relatorios {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvDirceu;
-        
+
         /// <summary>
-        /// gvMaurilho control.
+        /// gvDiego control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvMaurilho;
-        
+        protected global::System.Web.UI.WebControls.GridView gvDiego;
+
+        /// <summary>
+        /// gvEdna control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvEdna;
+
+        /// <summary>
+        /// gvMaurilio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvMaurilio;
+
+        /// <summary>
+        /// gvGabriel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvGabriel;
+
         /// <summary>
         /// gvRede control.
         /// </summary>

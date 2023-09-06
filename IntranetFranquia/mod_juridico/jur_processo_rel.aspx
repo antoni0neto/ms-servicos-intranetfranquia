@@ -113,8 +113,8 @@
                                         <div class="rounded_corners">
                                             <asp:GridView ID="gvProcesso" runat="server" Width="100%" AutoGenerateColumns="False"
                                                 ShowFooter="true" ForeColor="#333333" Style="background: white" OnRowDataBound="gvProcesso_RowDataBound">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="25px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>
@@ -129,33 +129,33 @@
                                                                 <asp:GridView ID="gvInstancia" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvInstancia_RowDataBound"
                                                                     Width="100%">
                                                                     <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                                    <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                                    <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                                     <Columns>
                                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="23px" ItemStyle-HorizontalAlign="Center"
-                                                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                             <ItemTemplate>
                                                                                 <asp:Literal ID="litColuna" runat="server"></asp:Literal>
                                                                             </ItemTemplate>
                                                                         </asp:TemplateField>
                                                                         <asp:TemplateField HeaderText="Fase" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                            HeaderStyle-Width="195px" ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                            HeaderStyle-Width="195px" ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                             <ItemTemplate>
                                                                                 <asp:Literal ID="litInstancia" runat="server"></asp:Literal>
                                                                             </ItemTemplate>
                                                                         </asp:TemplateField>
                                                                         <asp:BoundField DataField="DATA_JULGAMENTO" HeaderStyle-HorizontalAlign="Center"
-                                                                            ItemStyle-HorizontalAlign="Center" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                            ItemStyle-HorizontalAlign="Center" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" HeaderText="Data de Julgamento" HeaderStyle-Width="200px"
                                                                             DataFormatString="{0:d}" />
                                                                         <asp:BoundField DataField="DATA_CONDENACAO" HeaderStyle-HorizontalAlign="Center"
-                                                                            ItemStyle-HorizontalAlign="Center" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                            ItemStyle-HorizontalAlign="Center" ItemStyle-BorderColor="Gainsboro"
                                                                             ItemStyle-BorderWidth="1px" HeaderText="Data de Sentença" HeaderStyle-Width="200px"
                                                                             DataFormatString="{0:d}" />
                                                                         <asp:BoundField DataField="FORMA_PGTO" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px" HeaderText="Forma de Pagamento"
+                                                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px" HeaderText="Forma de Pagamento"
                                                                             HeaderStyle-Width="230px" />
                                                                         <asp:BoundField DataField="OBSERVACAO" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left"
-                                                                            ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px" HeaderText="Observação" />
+                                                                            ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px" HeaderText="Observação" />
                                                                     </Columns>
                                                                 </asp:GridView>
                                                             </asp:Panel>
@@ -168,7 +168,7 @@
                                                     <asp:BoundField DataField="CARGO" HeaderText="Cargo" HeaderStyle-Width="190px" ItemStyle-HorizontalAlign="Left"
                                                         HeaderStyle-HorizontalAlign="Left" />
                                                     <asp:TemplateField HeaderText="Status" ItemStyle-HorizontalAlign="Left" HeaderStyle-Width="155px"
-                                                        ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                        ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                         <ItemTemplate>
                                                             <asp:Literal ID="litStatus" runat="server"></asp:Literal>
                                                         </ItemTemplate>

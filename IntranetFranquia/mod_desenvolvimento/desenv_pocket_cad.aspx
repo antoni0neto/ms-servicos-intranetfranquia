@@ -72,8 +72,8 @@
                                                 <div id="divErro" class="rounded_corners" runat="server">
                                                     <asp:GridView ID="gvErro" runat="server" Width="100%" AutoGenerateColumns="False"
                                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvErro_RowDataBound">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" />
-                                                        <FooterStyle BackColor="GradientActiveCaption" />
+                                                        <HeaderStyle BackColor="Gainsboro" />
+                                                        <FooterStyle BackColor="Gainsboro" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>
@@ -121,7 +121,7 @@
                                                 <div id="divModelo" class="rounded_corners" runat="server">
                                                     <asp:GridView ID="gvModelo" runat="server" Width="100%" AutoGenerateColumns="False"
                                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvModelo_RowDataBound">
-                                                        <HeaderStyle BackColor="GradientActiveCaption" />
+                                                        <HeaderStyle BackColor="Gainsboro" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                 <ItemTemplate>

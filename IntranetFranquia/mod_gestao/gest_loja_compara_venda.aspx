@@ -70,8 +70,8 @@
                 <asp:GridView ID="gvVendas" runat="server" Width="100%" AutoGenerateColumns="False"
                     ShowFooter="true" ForeColor="#333333" OnRowDataBound="gvVendas_RowDataBound"
                     OnDataBound="gvVendas_DataBound" Style="background: white">
-                    <HeaderStyle BackColor="GradientActiveCaption" />
-                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" />
+                    <HeaderStyle BackColor="Gainsboro" />
+                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" />
                     <Columns>
                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                             <ItemTemplate>
@@ -87,9 +87,9 @@
                                 <asp:Panel ID="pnlGrafico" runat="server" Style="display: none" Width="100%">
                                     <asp:GridView ID="gvGrafico" runat="server" AutoGenerateColumns="false" Width="100%" OnRowDataBound="gvGrafico_RowDataBound">
                                         <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                        <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                        <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                         <Columns>
-                                            <asp:TemplateField HeaderText="" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center" ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                            <asp:TemplateField HeaderText="" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center" ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                 <ItemTemplate>
                                                     <fieldset>
                                                         <asp:Panel ID="pnlGraficoResultado" runat="server" BackColor="White" BorderWidth="1" BorderColor="Black">
@@ -132,8 +132,8 @@
             <div class="rounded_corners">
                 <asp:GridView ID="gvFilialSemVenda" runat="server" Width="100%" AutoGenerateColumns="False"
                     ShowFooter="true" ForeColor="#333333" Style="background: white">
-                    <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
-                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Center" />
+                    <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center" />
+                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Center" />
                     <Columns>
                         <asp:BoundField DataField="filial" HeaderText="Filial" ItemStyle-HorizontalAlign="Center" />
                     </Columns>

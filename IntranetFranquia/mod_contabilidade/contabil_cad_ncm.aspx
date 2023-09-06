@@ -78,9 +78,9 @@
                                         ForeColor="#333333" Style="background: white" OnRowDataBound="gvNCM_RowDataBound"
                                         AllowSorting="true" OnSorting="gvNCM_Sorting"
                                         ShowFooter="true">
-                                        <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left"></HeaderStyle>
+                                        <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left"></HeaderStyle>
                                         <RowStyle HorizontalAlign="Left"></RowStyle>
-                                        <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                        <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                         <Columns>
                                             <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                 <ItemTemplate>

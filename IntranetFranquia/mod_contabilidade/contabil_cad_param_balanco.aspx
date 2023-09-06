@@ -95,8 +95,8 @@
                                 OnRowDataBound="gvParamBalanco_RowDataBound"
                                 AllowSorting="true" OnSorting="gvParamBalanco_Sorting"
                                 ForeColor="#333333" Style="background: white; width: 1450px; border-collapse: collapse;">
-                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" />
+                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" />
                                 <Columns>
                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                         <ItemTemplate>

@@ -87,8 +87,8 @@
                                 <asp:GridView ID="gvProduto" runat="server" Width="100%" AutoGenerateColumns="False"
                                     ForeColor="#333333" Style="background: white" OnRowDataBound="gvProduto_RowDataBound"
                                     DataKeyNames="CODIGO">
-                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                    <FooterStyle BackColor="GradientActiveCaption" />
+                                    <HeaderStyle BackColor="Gainsboro" />
+                                    <FooterStyle BackColor="Gainsboro" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                             <ItemTemplate>
@@ -103,17 +103,17 @@
                                                     <asp:GridView ID="gvFoto" runat="server" AutoGenerateColumns="false" OnRowDataBound="gvFoto_RowDataBound"
                                                         Width="100%" DataKeyNames="CODIGO">
                                                         <HeaderStyle BackColor="LightSteelBlue" HorizontalAlign="Center"></HeaderStyle>
-                                                        <RowStyle BorderColor="GradientActiveCaption" BorderWidth="1px" />
+                                                        <RowStyle BorderColor="Gainsboro" BorderWidth="1px" />
                                                         <Columns>
                                                             <asp:TemplateField HeaderText="Foto Produto" HeaderStyle-HorizontalAlign="Center"
-                                                                ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="50%" ItemStyle-BorderColor="GradientActiveCaption"
+                                                                ItemStyle-HorizontalAlign="Center" HeaderStyle-Width="50%" ItemStyle-BorderColor="Gainsboro"
                                                                 ItemStyle-BorderWidth="1px">
                                                                 <ItemTemplate>
                                                                     <asp:Image ID="imgFotoProduto" Width="80" Height="130" runat="server" ImageAlign="Middle" />
                                                                 </ItemTemplate>
                                                             </asp:TemplateField>
                                                             <asp:TemplateField HeaderText="Foto Peça" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                                ItemStyle-BorderColor="GradientActiveCaption" ItemStyle-BorderWidth="1px">
+                                                                ItemStyle-BorderColor="Gainsboro" ItemStyle-BorderWidth="1px">
                                                                 <ItemTemplate>
                                                                     <asp:Image ID="imgFotoPeca" Width="80" Height="130" runat="server" ImageAlign="Middle" />
                                                                 </ItemTemplate>

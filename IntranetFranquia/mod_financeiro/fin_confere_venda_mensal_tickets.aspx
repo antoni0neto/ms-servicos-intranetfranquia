@@ -83,8 +83,8 @@
                                             <asp:GridView ID="gvTickets" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                 Style="background: white" OnRowDataBound="gvTickets_RowDataBound" OnDataBound="gvTickets_DataBound" ShowFooter="true"
                                                 OnSorting="gvTickets_Sorting" AllowSorting="true">
-                                                <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Left" />
-                                                <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" />
+                                                <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Left" />
+                                                <FooterStyle BackColor="Gainsboro" Font-Bold="true" />
                                                 <RowStyle HorizontalAlign="Left" />
                                                 <Columns>
                                                     <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
@@ -102,8 +102,8 @@
                                                                 <asp:GridView ID="gvHistCancelamento" runat="server" Width="100%" AutoGenerateColumns="False" ForeColor="#333333"
                                                                     Style="background: white" OnRowDataBound="gvHistCancelamento_RowDataBound" OnDataBound="gvHistCancelamento_DataBound"
                                                                     ShowFooter="true">
-                                                                    <HeaderStyle BackColor="GradientActiveCaption" />
-                                                                    <FooterStyle BackColor="GradientActiveCaption" Font-Bold="true" HorizontalAlign="Left" />
+                                                                    <HeaderStyle BackColor="Gainsboro" />
+                                                                    <FooterStyle BackColor="Gainsboro" Font-Bold="true" HorizontalAlign="Left" />
                                                                     <Columns>
                                                                         <asp:TemplateField HeaderText="" HeaderStyle-Width="30px" ItemStyle-HorizontalAlign="Center">
                                                                             <ItemTemplate>

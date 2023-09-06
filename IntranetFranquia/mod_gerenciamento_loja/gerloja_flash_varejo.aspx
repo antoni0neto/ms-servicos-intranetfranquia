@@ -129,8 +129,8 @@
                                     <div class="rounded_corners">
                                         <asp:GridView ID="gvFlashVarejoTotal" runat="server" Width="100%" AutoGenerateColumns="False"
                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvFlashVarejo_RowDataBound">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="20px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>
@@ -180,7 +180,7 @@
                                                     </ItemTemplate>
                                                 </asp:TemplateField>
                                                 <asp:TemplateField HeaderStyle-Font-Size="Smaller" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="GradientActiveCaption">
+                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="Gainsboro">
                                                     <ItemTemplate>
                                                         <asp:Literal ID="litEspaco" runat="server"></asp:Literal>
                                                     </ItemTemplate>
@@ -239,8 +239,8 @@
                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvFlashVarejo_RowDataBound"
                                             OnDataBound="gvFlashVarejo_DataBound" ShowFooter="true"
                                             OnSorting="gvFlashVarejo_Sorting" AllowSorting="true">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="20px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>
@@ -290,7 +290,7 @@
                                                     </ItemTemplate>
                                                 </asp:TemplateField>
                                                 <asp:TemplateField HeaderStyle-Font-Size="Smaller" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="GradientActiveCaption">
+                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="Gainsboro">
                                                     <ItemTemplate>
                                                         <asp:Literal ID="litEspaco" runat="server"></asp:Literal>
                                                     </ItemTemplate>
@@ -350,8 +350,8 @@
                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvLojaAberta_RowDataBound"
                                             OnDataBound="gvLojaAberta_DataBound" ShowFooter="true"
                                             OnSorting="gvLojaAberta_Sorting" AllowSorting="true">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="20px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>
@@ -401,7 +401,7 @@
                                                     </ItemTemplate>
                                                 </asp:TemplateField>
                                                 <asp:TemplateField HeaderStyle-Font-Size="Smaller" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="GradientActiveCaption">
+                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="Gainsboro">
                                                     <ItemTemplate>
                                                         <asp:Literal ID="litEspaco" runat="server"></asp:Literal>
                                                     </ItemTemplate>
@@ -461,8 +461,8 @@
                                             ForeColor="#333333" Style="background: white" OnRowDataBound="gvLojaFechada_RowDataBound"
                                             OnDataBound="gvLojaFechada_DataBound" ShowFooter="true"
                                             OnSorting="gvLojaFechada_Sorting" AllowSorting="true">
-                                            <HeaderStyle BackColor="GradientActiveCaption" HorizontalAlign="Center"></HeaderStyle>
-                                            <FooterStyle BackColor="GradientActiveCaption" HorizontalAlign="Center" Font-Bold="true" />
+                                            <HeaderStyle BackColor="Gainsboro" HorizontalAlign="Center"></HeaderStyle>
+                                            <FooterStyle BackColor="Gainsboro" HorizontalAlign="Center" Font-Bold="true" />
                                             <Columns>
                                                 <asp:TemplateField HeaderText="" HeaderStyle-Width="20px" ItemStyle-HorizontalAlign="Center">
                                                     <ItemTemplate>
@@ -512,7 +512,7 @@
                                                     </ItemTemplate>
                                                 </asp:TemplateField>
                                                 <asp:TemplateField HeaderStyle-Font-Size="Smaller" HeaderStyle-HorizontalAlign="Center" ItemStyle-HorizontalAlign="Center"
-                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="GradientActiveCaption">
+                                                    HeaderText="" HeaderStyle-Width="10px" ItemStyle-BackColor="Gainsboro">
                                                     <ItemTemplate>
                                                         <asp:Literal ID="litEspaco" runat="server"></asp:Literal>
                                                     </ItemTemplate>
